@@ -1,0 +1,400 @@
+/*
+    Primary Sass File where Every File included in
+*/
+/*
+        Include Reset File From Bases Folder
+*/
+/*
+    ### Reset Default Values of html ###
+*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none !important;
+    color : #dd6161 ;
+
+}
+a:hover {
+
+    color : #dd6161b3 ;
+
+}
+/*
+        Include variables File From helpers Folder
+*/
+/*
+    ##### File specified for (VARIABLES) used in project #####
+*/
+/*
+        Include Header File From Layouts Folder
+*/
+/* Start Header */
+.header {
+    /*    background: #dd6161;
+        box-shadow: 1px 1px 10px #ddd;
+        margin-right: -15px;
+        padding: 10px;
+        position: fixed;
+        width: 90%;
+        z-index: 999;*/
+}
+.header .btn {
+    border-color: transparent !important;
+}
+.header .btn i {
+    color: #959595;
+}
+.header .dropdown-menu {
+    right: -120px;
+}
+
+/* End Header */
+/*
+        Include sideMenu File From Layouts Folder
+*/
+/* Start Side Menu */
+.side-Menu {
+    background: #e5e5e5;
+    padding: 30px 0;
+    margin-right: -15px;
+    height: 100%;
+    position: fixed;
+    /*position: relative;*/
+    /*width: 100%;*/
+    /*width: 14%;*/
+
+}
+.person {
+    position: relative;
+    width: 100%;
+}
+.side-Menu .user-image {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: 1px 1px 40px #aaa;
+    margin-bottom: 10px;
+}
+.side-Menu .user-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.user-name p {
+    /*font-size: 1.3vw;*/
+    margin: 6px 0;
+    color: #fff;
+}
+.side-Menu nav ul {
+    /*margin-top: 20px;*/
+}
+.side-Menu nav ul li {
+    background: #e5e5e5;
+    transition: background .4s ease-in-out;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 10px 15px;
+    border-bottom: 1px solid #d8bcbc;
+
+}
+.side-Menu nav ul li span{
+    font-size: 1.25vw;
+}
+.side-Menu nav ul li a, .side-Menu nav ul li i {
+    color: #333;
+    margin-left: 10px;
+    transition: color .4s ease-in-out;
+    padding: 5px;
+}
+.side-Menu nav ul li:hover {
+    background: #fafcfd !important;
+    border-left: 2px solid #dd6161 !important;
+}
+.side-Menu nav ul li:hover a, .side-Menu nav ul li:hover i {
+    color: #dd6161 !important;
+}
+
+.active {
+    background: #fafcfd !important;
+    border-left: 2px solid #007ec5 !important;
+}
+.active a, .active i {
+    color: #007ec5 !important;
+}
+
+.sideMenu-clicked {
+    width: 6.5% !important;
+}
+.sideMenu-clicked li i {
+    font-size: 20px;
+}
+
+.header-clicked {
+    margin-right: -22px !important;
+    width: 94% !important;
+}
+
+/* End Side Menu */
+/*
+        Include Report File From Layouts Folder
+*/
+/* Map */
+#map {
+    height: 100%;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+}
+.map{
+    background-color: white;
+    height: calc(100vh - 150px);;
+    width: 100%;
+    position: relative;
+}
+/* cards */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.scroll {
+    position: relative;
+    overflow-y: scroll;
+    height: calc(100vh - 150px);
+    margin: 0 auto;
+}
+.scroll-rest {
+    position: relative;
+    overflow-y: scroll;
+    height: calc(100vh - 150px);
+    /*margin: 0 auto;*/
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    outline-color: currentcolor;
+    box-shadow: 0 0 0 .2rem #e7acac;
+}
+.card-title{
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+}
+.card-text{
+    color: #989898;
+    text-align: center;
+    font-size: .8rem;
+}
+.tag{
+    position: absolute;
+    top: 15px;
+    z-index: 1;
+    /*    background-color: #61655799;*/
+    padding: 5px;
+    color: #FFFFFF;
+    width: 100%;
+}
+.tag > div {
+    margin: 0 10px;
+    background-color: #61655799;
+    padding: 5px;
+}
+.rate-btn {
+    background: transparent;
+    border: none;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+.bar{
+    position: absolute;
+    left: 0;
+    top : 166px;
+    z-index: 1000;
+    background-color: #61655799;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    width : 100%;
+}
+.stock{
+    width: 12px;
+
+    height: 12px;
+
+    background: #3cd13c;
+
+    border-radius: 50%;
+
+    margin: 5px 8px;
+}
+/* Start Report */
+main {
+    /*margin-top: 50px;*/
+    height: 100%;
+    /*background-image: url(https://savemymeal.com/wp-content/uploads/2019/03/salad-2068220_1920.jpg);*/
+    /*background-size: cover;*/
+    /*    position: fixed;
+        overflow-y: scroll;*/
+}
+
+.circle {
+    margin: 28px 0;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+}
+.circle strong {
+    position: absolute;
+    top: 77px;
+    left: 55px;
+    width: 100%;
+    text-align: center;
+    line-height: 45px;
+    font-size: 36px;
+}
+
+/* End Report */
+@font-face {
+    font-family: 'NeoSans';
+    src: url("../fonts/NeoSans-regular.woff") format("woff");
+    /* Modern Browsers */
+}
+body {
+    font-family: 'NeoSans';
+    background: #fafcfd;
+    overflow-X: hidden !important;
+}
+
+/*
+        Include variables File From helpers Folder
+*/
+/* Start Media Query */
+/* Extra small devices (portrait phones, less than 576px)*/
+/* Small devices (landscape phones, 576px and up) */
+/* Medium devices (tablets, 768px and up) */
+/* Large devices (desktops, 992px and up) */
+
+/*# sourceMappingURL=style.css.map */
+.btn-group .btn-group-sm {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/*Input*/
+.form-control:focus {
+
+    border-color: #ea818166;
+    box-shadow: 0 0 0 .2rem #ea818166;
+}
+.loginSectionForm .panel-heading {
+    color: #dd6161;
+    /*font-size: 2.5vw;*/
+}
+.table th, .table td {
+    border :none !important;
+}
+.prev, .next {
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-top: 20px;
+}
+.prev {
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.next{
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.input.text.required {
+    margin-bottom: 30px;
+}
+.checked {
+    color : yellow;
+}
+.actions{
+    display: flex;
+
+}
+.modal-dialog {
+    max-width: 95% !important;
+    margin: 1.75rem auto;
+}
+.modal-body{
+    background-color: #f3f3f3;
+}
+.modal-footer ul {
+    width : 100%;
+}
+.rate-cover {
+
+    border: 1px solid #ececec;
+
+    padding-bottom: 10px;
+}
+.rate-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #ececec;
+    margin: auto;
+    margin-top: auto;
+    padding-top: 40px;
+    margin-top: 17px;
+}
+
+.users td {
+    text-align: center;
+}
+.restaurants{
+    padding-left: 0;
+}
+.card {
+    box-shadow: -1px 12px 14px -5px rgba(212,205,212,0.98);
+
+}
+.card-title{
+    color: #dd6161;
+}
+.checked-rate{
+    color: #dd6161;
+}
+.rate-circle {
+    font-weight: bold;
+    font-size: 22px;
+}
+.card-title {
+    color: #000 !important;
+}
+#rest-logo{
+    width: 100%;
+    /*height: 50px;*/
+    text-align: center;
+}
+#rest-logo img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.success-container{
+
+    background: #fafcfd;
+}
+.success-container h1 {
+    color: #dd6161;
+}
+
+.success-img{
+    width: 80px;
+    height: 80px;
+}

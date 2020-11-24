@@ -1,0 +1,131 @@
+#countryflag {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+#countryname {
+    margin-left: 0 !important;
+}
+
+#country-dropdown-arrow {
+    margin-left: -10px;
+    margin-top: 1px;
+}
+
+#country-selector-modal {
+    margin-top: 15px;
+    height: 100px;
+    position: absolute;
+    right: 5px;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+#countrynamelabel {
+    margin-top: 10px;
+    padding-left: 0;
+}
+
+#CountryId option:hover {
+    box-shadow: 0 0 10px 100px #1882A8 inset;
+}
+
+#CountryId {
+    padding: 3px 5px 5px 0px;
+    padding-left: 5px;
+    margin-left: 1px;
+    border-radius: 4px;
+    outline: 0;
+}
+
+#CountryId:focus {
+    border-color: #0070cd;
+}
+
+.flag-select {
+    position: absolute;
+    margin-left: 11%;
+    z-index: 1;
+    margin-top: 10px;
+}
+
+#country-selector-modal:after, #country-selector-modal:before {
+    bottom: 100%;
+    left: 90%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+#country-selector-modal:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-bottom-color: #fff;
+    border-width: 15px;
+    margin-left: -15px;
+}
+
+#country-selector-modal:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-bottom-color: #ccc;
+    border-width: 16px;
+    margin-left: -16px;
+}
+
+
+#s2id_CountryId .select2-choice {
+    background: url("/Assets/Img/Red Flag.png") no-repeat scroll 5px 5px #fff;
+}
+
+#s2id_Countries .select2-drop  {
+ /*       left: 926px;
+    top: 128px;
+    top: 142.33px; */
+}
+
+.country-name {
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    left: inherit;
+    right: 0;
+    font-size: 16px;
+}
+
+.dropdown-menu>li>a {
+    margin: 0;
+}
+
+.dropdown-menu>li>a:hover {
+    color: #0070cd !important;
+}
+
+.countries-menue {
+    display: inline-block;
+}
+
+.countries-menue .main-btn {
+    background: 0 0;
+    color: #0070cd;
+    font-weight: 500;
+    width: auto;
+    text-align: center;
+    padding: 6px 7px;
+}
+
+.countries-menue .main-btn, .countries-menue .main-btn span {
+    font-size: 20px;
+}
+
+.countries-menue .main-btn .flag-country {
+    padding-right: 6px;
+    margin-top: 4px;
+}
+
+.countries-menue .flag-country {
+    float: left;
+    padding-right: 12px;
+}

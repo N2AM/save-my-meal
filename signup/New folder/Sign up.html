@@ -1,0 +1,1584 @@
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+ <!--<![endif]-->
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google" value="notranslate" />
+    <meta charset="utf-8" />
+    <meta name="ServerName" content="Vezeeta Two" />
+    <meta name="TimeStamp" content="5/7/2017 2:20:40 PM" />
+    <meta property="og:type" content="website" />
+    <title>Vezeeta - Sign Up</title>
+    
+    <link href='//fonts.googleapis.com/css?family=Economica:700' rel='stylesheet' type='text/css'>
+
+    
+    
+    
+ 
+
+    
+    
+        <link href='//fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+<link href="min.css" rel="stylesheet">
+<link href="select.css" rel="stylesheet">
+<link href="component.css" rel="stylesheet">
+<link href="nprogress.css" rel="stylesheet">
+<link href="prettyCheckable.css" rel="stylesheet">
+
+    <script src="jquery-1.11.1.min.js"></script>
+    <script src="validate.min.js"></script>
+    <script src="validate.unobtrusive.min.js"></script>
+
+    <script src="modernizr-2.6.2-respond-1.1.0.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="plugins.js"></script>
+<script src="select2.js"></script>
+<script src="classie.js"></script>
+<script src="nprogress.js"></script>
+<script src="/Assets/Plugins/prettyCheckable/dev/prettyCheckable.js"></script>
+<script src="/Assets/js/main.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+     <script src="readmore.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+    
+    
+	
+
+	<!-- Begin Inspectlet Embed Code -->
+	<script type="text/javascript" id="inspectletjs">
+		window.__insp = window.__insp || [];
+		__insp.push(['wid', 1339208196]);
+		(function () {
+			function ldinsp() { if (typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+			setTimeout(ldinsp, 500); document.readyState != "complete" ? (window.attachEvent ? window.attachEvent('onload', ldinsp) : window.addEventListener('load', ldinsp, false)) : ldinsp();
+		})();
+	</script>
+
+
+    
+	
+
+    
+	
+
+    
+   
+</head>
+<body>
+    
+
+<header>
+	<div class="container">
+		<div class="clearfix h10"></div>
+		<div class="row">
+			<div id="menuDev" class="col-xs-12 col-sm-7 headerLang hdr-res2">
+				<div class="ppn ppn2 pull-left">
+					<a href="/en/Account/Index" style="height: auto !important; padding: 0; margin: 0;" title="Home">
+						<img src="/Assets/img/logo.png" class="img-log" alt="Vezeeta" style="margin-right: auto; margin-left: auto; display: block;" />
+					</a>
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-sm-5 pull-left headermenu nopadding">
+				<div class="col-xs-12 headerLeft headernavArabic hdr-res white bluetext nopadding" style="margin-top: 10px; zoom: 0.9; -moz-transform: scale(0.80);">
+					<div class="ppn pull-right">
+
+    <a class="signuptext bluetext fs-12" onclick="mixPanelUtil.SignupLink()" title="Sign Up" href="/">Sign Up</a>
+    <span class="spn bluetext">|</span>
+    <a href="/en/Account/SignIn" class=" bluetext fs-12" title="Login">Login</a>
+    <span class="spn bluetext">|</span>
+    <a href="/en/Generic/ContactUs" class="bluetext">Contact Us</a>
+        <span class="spn bluetext">|</span>
+
+
+
+
+<div class="dropdown countries-menue">
+    <button class="btn dropdown-toggle main-btn" type="button" data-toggle="dropdown" data-path="https://d2x6aborucmd3z.cloudfront.net/Countries/{0}" id="CountryId" value="1">
+        <span title="Egypt" id="countryname">Egypt</span>
+        <img title="Egypt" class="flag-country" src="https://d2x6aborucmd3z.cloudfront.net/Countries/Egypt.png" alt="" />
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+            <li>
+                <a onclick="CountryChanged(this)" class="country-name" data-value="1" >
+                    <span>Egypt</span>
+                    <img class="flag-country" data-imgUrl="Egypt.png" src="https://d2x6aborucmd3z.cloudfront.net/Countries/Egypt.png" alt="" />
+                </a>
+            </li>
+            <li>
+                <a onclick="CountryChanged(this)" class="country-name" data-value="2" >
+                    <span>Jordan</span>
+                    <img class="flag-country" data-imgUrl="Jordan.png" src="https://d2x6aborucmd3z.cloudfront.net/Countries/Jordan.png" alt="" />
+                </a>
+            </li>
+    </ul>
+    <input id="updatecountrycookieurl" type="hidden" data-url="/en/Account/UpdateCountryCookie" />
+</div>
+
+
+
+
+
+<script src="CountrySelector.js"></script>
+<link href="CountrySelector.css" rel='stylesheet' type='text/css'>
+
+<script>
+    $(document).ready(function () {
+
+        $('#menu_hdr').click(function (event) {
+            $('.arrow').fadeToggle();
+            $('#gridbox').fadeToggle();
+            event.stopPropagation();
+        });
+
+        $('body').click(function () {
+            $('.arrow').fadeOut();
+            $('#gridbox').fadeOut();
+        });
+    });
+
+    function redirectToPayment() {
+        $.ajax({
+            type: "GET",
+            async: false,
+            dataType: "json",
+            url: "/en/Account/Payment",
+            success: function (data) {
+                window.open(data.url, '_blank');
+            },
+            error: function (data) {
+                //alert("fail");
+            }
+        });
+    }
+</script>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="clearfix h10"></div>
+	</div>
+</header>
+<body class="ltr">
+	
+<link rel="stylesheet" href="/Assets/Css/ProgressBar.css" />
+
+<div class="container mainwrapper">
+    <div id="signupmainrow" class="row">
+        <ol class="progtrckr hidden-xs" data-progtrckr-steps="3" style="margin-right: 13px; margin-left: 13px;">
+            <li class="progtrckr-inprogress">Sign Up</li>
+            <li class="progtrckr-todo">Payment Details</li>
+            <li class="progtrckr-todo">Download Vezeeta Doctors Mobile App</li>
+        </ol>
+        <br /><br />
+
+        <div id="doctorsOnlySection" class="bluetitle economica col-sm-8 col-md-7">
+            <div class="paddingleftright40">
+                <span>This page is for doctor’s registration. If you are logging on for an appointment with doctor please</span>
+                <a id="doctorsOnlyLink" class="bluetext" href="http://www.vezeeta.com/">Click Here</a>
+            </div>
+        </div>
+
+        <div class="col-sm-8 col-md-7">
+            <div id="signUpDiv" class=" mCenter form-outer form-padding paddingleftright40">
+<form action="/" class="form-horizontal signupForm" enctype="multipart/form-data" method="post" name="createAccountForm"><input data-val="true" data-val-number="The field CountryId must be a number." data-val-required="The CountryId field is required." id="CountryId" name="CountryId" type="hidden" value="1" />                    <div class="form-group">
+                        <label class="col-sm-8 bluetitle economica fs-24">Join Vezeeta Now</label>
+                    </div>
+<div class="form-group">
+    <label class="col-sm-3 control-label bluetext">Full Name <sup>*</sup></label>
+    <div class="col-sm-8">
+        <input class="form-control" id="FullName" maxlength="60" name="FullName" onkeypress="validateName(event)" onkeyup="ValidateNameLength(event)" type="text" value="" />
+        
+        <span class="red" id="lessthan" hidden="hidden">Please enter your full name</span>
+    </div>
+</div>
+<div class="form-group">
+    <label class="col-sm-3 control-label bluetext">Mobile Number <sup>*</sup></label>
+    <div class="col-sm-8">
+		<input class="form-control" data-val="true" data-val-regex="Mobile Number is incorrect" data-val-regex-pattern="^[0-9]{8,20}$" data-val-required="Please enter your mobile number" id="MobileNumber" name="MobileNumber" type="text" value="" />
+        <span class="field-validation-valid" data-valmsg-for="MobileNumber" data-valmsg-replace="true"></span>
+        <span class="red" id="mblreqir" hidden="hidden">Please enter your mobile number</span>
+    </div>
+</div>
+
+
+<div class="form-group">
+    <label class="col-sm-3 control-label bluetext">Email Address <sup>*</sup></label>
+    <div class="col-sm-8">
+        <input class="form-control" data-val="true" data-val-regex="Email Address is incorrect" data-val-regex-pattern="^(([\w-]+\.)+[\w-]+|([a-zA-Z]{1}|[\w-]{2,}))@((([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\.([0-1]?
+				                                       [0-9]{1,2}|25[0-5]|2[0-4][0-9])\.([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\.([0-1]?
+				                                       [0-9]{1,2}|25[0-5]|2[0-4][0-9])){1}|([a-zA-Z]+[\w-]+\.)+[a-zA-Z]{2,4}[&#39; &#39;]{0,5})$" data-val-required="Please enter your email address" id="EmailAddress" name="EmailAddress" type="text" value="" />
+        <span class="field-validation-valid" data-valmsg-for="EmailAddress" data-valmsg-replace="true"></span>
+        <span class="red" id="emlreqir" hidden="hidden">Please enter your email address</span>
+    </div>
+</div>
+
+    <div class="form-group">
+        <label class="col-sm-3 control-label bluetext" for="0">City<sup>*</sup></label>
+        <div class="col-sm-8">
+            <select id="CityId" name="CityId" class="dropDown col-xs-12 col-sm-12 nopadding">
+                
+            </select>
+            <br />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-3 control-label bluetext" for="0">Area<sup>*</sup></label>
+        <div class="col-sm-8">
+            <select id="AreaId" name="AreaId" class="dropDownArea col-xs-12 col-sm-12 nopadding">
+                <option class="bluetext" value="" selected>Choose Area</option>
+
+            </select>
+            <br />
+            <span id="invalidArea" class="red" hidden="hidden">Choose an area</span>
+        </div>
+    </div>
+
+<div class="form-group">
+    <label class="col-sm-3 control-label bluetext">Specialty<sup>*</sup></label>
+    <div class="col-sm-8">
+        <select id="SpecialityId" name="CountrySpecialityId" class="SpecialityDropDown col-xs-12 col-sm-12 nopadding">
+            <option id="specChoose" value="" selected>Choose Your Speciality</option>
+                <option value="58">حساسية و مناعة - Allergy and Immunology</option>
+                <option value="88">ذكورة و عقم - Andrology and Male Infertility</option>
+                <option value="200">سمعيات - Audiology</option>
+                <option value="34">جراحة قلب و صدر - Cardiology and Thoracic Surgery</option>
+                <option value="97">قلب و اوعية دموية - Cardiology and Vascular Disease</option>
+                <option value="33">صدر و جهاز تنفسي - Chest and Respiratory</option>
+                <option value="6">اسنان - Dentistry</option>
+                <option value="5">امراض جلدية و تناسلية - Dermatology</option>
+                <option value="201">سكر و غدد صماء - Diabetes and Endocrinology</option>
+                <option value="90">تخسيس و تغذية - Dietitian and Nutrition</option>
+                <option value="38">انف و اذن و حنجرة - Ear, Nose and Throat</option>
+                <option value="86">طب مسنين - Elders</option>
+                <option value="202">جهاز هضمي و مناظير - Gastroenterology and Endoscopy</option>
+                <option value="52">ممارسة عامة - General Practice</option>
+                <option value="16">جراحة عامة - General Surgery</option>
+                <option value="19">نساء و توليد - Gynaecology and Infertility</option>
+                <option value="54">امراض دم - Hematology</option>
+                <option value="98">كبد - Hepatology</option>
+                <option value="20">باطنة - Internal Medicine</option>
+                <option value="204">حقن مجهري و اطفال انابيب - IVF and Infertility</option>
+                <option value="205">كلى - Nephrology</option>
+                <option value="21">مخ و اعصاب - Neurology</option>
+                <option value="22">جراحة مخ و اعصاب - Neurosurgery</option>
+                <option value="93">جراحة سمنة و مناظير - Obesity and Laparoscopic Surgery</option>
+                <option value="23">اورام - Oncology</option>
+                <option value="94">عيون - Ophthalmology</option>
+                <option value="26">عظام - Orthopedics</option>
+                <option value="59">علاج الآلام - Pain Management</option>
+                <option value="206">جراحة اطفال - Pediatric Surgery</option>
+                <option value="30">اطفال و حديثي الولادة - Pediatrics and New Born</option>
+                <option value="61">نطق و تخاطب - Phoniatrics</option>
+                <option value="96">علاج طبيعي و اصابات ملاعب - Physiotherapy and Sport Injuries</option>
+                <option value="101">جراحة تجميل - Plastic Surgery</option>
+                <option value="32">نفسي - Psychiatry</option>
+                <option value="28">روماتيزم - Rheumatology</option>
+                <option value="207">جراحة عمود فقري - Spinal Surgery</option>
+                <option value="35">مسالك بولية - Urology</option>
+                <option value="3">جراحة اوعية دموية - Vascular Surgery</option>
+        </select>
+        <br />
+        <span class="red" id="specId" hidden="hidden">Speciality is required</span>
+        
+    </div>
+</div>
+
+<div id="secondSpecDiv" class="form-group displaynone">
+    <label class="col-sm-3 control-label bluetext">Sub Specialty<sup>*</sup></label>
+    <div class="col-sm-8">
+        <select id="SecondSpecialityId" name="SecondSpecialityId" class="dropDownSecondSpeciality col-xs-12 col-sm-12 nopadding">
+            <option value="" selected>Choose Your Sub Speciality</option>
+        </select>
+        <br />
+        <span class="red" id="secSpecReq" hidden="hidden">Sub speciality is required</span>
+    </div>
+</div>
+
+<div id="secondSpecDivM" class="form-group displaynone">
+    <div class="col-sm-offset-3 col-sm-8">
+        <select id="MultiSecondSpecialityId" multiple="multiple" name="MultiSecondSpecialityId" class="dropDownMulti col-xs-12 col-sm-12 nopadding">
+            <option value="">Choose Your Sub Speciality</option>
+        </select>
+    </div>
+</div>
+
+    <div class="form-group" style="display:none">
+        <div class="col-sm-3">
+            <label class="control-label bluetext">Booking Type<sup>*</sup></label>
+        </div>
+        <div id="AccountBookingType" class="col-sm-8 ">
+
+            <input checked="checked" data-label="Clinic" data-val="true" data-val-number="The field AccountBookingTypeId must be a number." data-val-required="The AccountBookingTypeId field is required." id="1" name="AccountBookingTypeId" type="radio" value="1" />
+            <input data-label="Home Visits" id="2" name="AccountBookingTypeId" type="radio" value="2" />
+                 
+           
+            <br/>
+        </div>
+    </div>
+    <div id="productlinesmaindiv">
+        
+
+<div id="ProductLinediv" class="form-group">
+    <label class="col-sm-3 control-label bluetext">Product<sup>*</sup></label>
+    <div id="ProductGroups" class="col-sm-8 ">
+<input type="checkbox" class="prodGroup" name="Vezeeta Book" data-label="Vezeeta Book" value="2"
+     /><br />
+
+<label class="item-desc">Build your Vezeeta Profile, expand your Online Exposure to increase your bookings</label><br />
+                <div class="ProductLines col-xs-offset-1 col-sm-offset-1">
+                            <div id="productLineGroup-20">
+                                <input type="radio" class="prodLine-2 col-xs-4" name="prodLine-2" data-label="Monthly fee + Transaction" value="20"
+                                        />
+                                <br />
+                                <label id="prodLineDesc-20" class="item-desc">
+                                    100 EGP monthly fee + 30% Transaction for new patient (VAT tax not included)
+
+                                </label>
+                            </div>
+                            <div id="productLineGroup-26">
+                                <input type="radio" class="prodLine-2 col-xs-4" name="prodLine-2" data-label="Transaction only" value="26"
+                                        />
+                                <br />
+                                <label id="prodLineDesc-26" class="item-desc">
+                                    35% Transaction for new patient (VAT tax not included)
+
+                                </label>
+                            </div>
+                </div>
+<input type="checkbox" class="prodGroup" name="Vezeeta Careplans" data-label="Vezeeta Careplans" value="1"
+     /><br />
+
+<label class="item-desc">Communicate with your patients by sending automated follow up messages</label><br />
+                <div class="ProductLines col-xs-offset-1 col-sm-offset-1">
+                            <div id="productLineGroup-23">
+                                <input type="radio" class="prodLine-1 col-xs-4" name="prodLine-1" data-label="Monthly fee" value="23"
+                                        />
+                                <br />
+                                <label id="prodLineDesc-23" class="item-desc">
+                                    100 EGP monthly fee for unlimited SMS (VAT tax not included)
+
+                                </label>
+                            </div>
+                            <div id="productLineGroup-27">
+                                <input type="radio" class="prodLine-1 col-xs-4" name="prodLine-1" data-label="Annual fee" value="27"
+                                        />
+                                <br />
+                                <label id="prodLineDesc-27" class="item-desc">
+                                    1200 EGP annual fee for unlimited SMS (VAT tax not included)
+
+                                </label>
+                            </div>
+                </div>
+        
+            <label class="item-desc margin-top-15">
+                *Activation Fee is charged once regardless of the number of selected products
+            </label><br />
+        <span class="red" id="ProdId" hidden="hidden">Please select a product</span>
+    </div>
+</div>
+
+
+<script>
+    var careProductGroup;
+
+    $(window).load(function () {
+        $("#ProductGroups").find(".ProductLines").each(function () {
+            $(this).find(".disabled").addClass("checked");
+        });
+
+
+    });
+
+    $(document).ready(function () {
+        productLineCount = $("input[class='prodGroup:checked']").length;
+
+        $("input[class='prodGroup']").each(function () {
+            if ($(this).attr("name").toLowerCase().indexOf("care") > 0) {
+                careProductGroup = $(this);
+                en_disableSenderName();
+            }
+
+            if ($(this).is(":checked")) {
+                productLineCount++;
+            }
+
+        });
+    });
+
+    $("input[class='prodGroup']").change(function () {
+        changeProductLines(this);
+        validateProductLine();
+        en_disableSenderName();
+    });
+
+    $("input[class^='prodLine-']").change(function () {
+        changeProductGroup(this);
+        validateProductLine();
+        en_disableSenderName();
+    });
+
+    function changeProductLines(productGroup) {
+        var productLine = $("input[class^='prodLine-" + $(productGroup).val() + "']");
+
+        if ($(productGroup).is(":checked")) {
+            if ($(productGroup).closest(".ProductLines:has(:radio:checked)").length == 0) {
+                productLine.first().prop("checked", true);
+                productLine.first().siblings("a").addClass("checked");
+                productLineCount++;
+            }
+        } else {
+            productLine.prop("checked", false);
+            productLine.siblings("a").removeClass("checked");
+            productLineCount--;
+        }
+    }
+
+    function changeProductGroup(productLine) {
+        var productGroupId = $(productLine).attr('name').split('prodLine-')[1];
+        var productGroup = $(productLine).closest(".ProductLines").siblings("div").find('.prodGroup[value="' + productGroupId + '"]');
+
+        if ($(productLine).is(":checked")) {
+            if (!productGroup.prop('checked')) {
+                productGroup.prop("checked", true);
+                productGroup.siblings("a").addClass("checked");
+                productLineCount++;
+            }
+        } else {
+            if ($(productLine).parent(".ProductLines:has(:radio:checked)").length == 0) {
+                productGroup.prop("checked", false);
+                productGroup.siblings("a").removeClass("checked");
+                productLineCount--;
+            }
+        }
+    }
+
+    function validateProductLine() {
+        if (productLineCount < 1) {
+            $('#ProdId').show();
+        } else {
+            $('#ProdId').hide();
+        }
+    }
+
+    function en_disableSenderName() {
+        if (careProductGroup.is(":checked")) {
+            var senderName = '';
+            $("#SenderName").val(senderName);
+            $("#SenderName").prop('disabled', false);
+        } else {
+            $("#SenderName").val("Vezeeta.com");
+            $("#SenderName").prop('disabled', true);
+            $("#emptySenderName").hide();
+        }
+    }
+
+    function ReloadProductLines(specialityId) {
+        var viewModel = '{&quot;FullName&quot;:null,&quot;EmailAddress&quot;:null,&quot;AreaId&quot;:0,&quot;MobileNumber&quot;:null,&quot;Password&quot;:null,&quot;NewPassword&quot;:null,&quot;VezeetaAreaId&quot;:null,&quot;ClinicKey&quot;:null,&quot;Cities&quot;:null,&quot;ProductLines&quot;:null,&quot;ProductLinesList&quot;:null,&quot;ProductLinesEnabled&quot;:true,&quot;ProductLinesString&quot;:null,&quot;SenderName&quot;:null,&quot;Notes&quot;:null,&quot;AssistantName&quot;:null,&quot;AssistantMobileNumber&quot;:null,&quot;UpdateAccountModel&quot;:null,&quot;IsFinance&quot;:false,&quot;IsDeleted&quot;:false,&quot;HasBook&quot;:false,&quot;HasCare&quot;:false,&quot;CountrySpecialities&quot;:[{&quot;CountrySpecialityId&quot;:58,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:58,&quot;Name&quot;:&quot;Allergy and Immunology&quot;,&quot;NameArabic&quot;:&quot;حساسية و مناعة&quot;,&quot;NameConcat&quot;:&quot;حساسية و مناعة - Allergy and Immunology&quot;,&quot;ImageUrl&quot;:&quot;general.png&quot;,&quot;FriendlyName&quot;:&quot;Sensitivity and Immunity&quot;,&quot;SearchedCount&quot;:116,&quot;DisplayOrder&quot;:99,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور حساسية و مناعة&quot;,&quot;PreferredName&quot;:&quot;Allergist and Immunologist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:100,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Allergy-and-Immunology&quot;,&quot;UrlNameArabic&quot;:&quot;-الحساسية-والمناعة,حساسية-و-مناعة&quot;,&quot;SpecialityKey&quot;:&quot;spec00000058EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:88,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:88,&quot;Name&quot;:&quot;Andrology and Male Infertility&quot;,&quot;NameArabic&quot;:&quot;ذكورة و عقم&quot;,&quot;NameConcat&quot;:&quot;ذكورة و عقم - Andrology and Male Infertility&quot;,&quot;ImageUrl&quot;:&quot;general.png&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:3090,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور ذكورة و عقم&quot;,&quot;PreferredName&quot;:&quot;Andrology and Genital Dermatology&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3081,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Andrology-and-Genital-Dermatology,Andrology-and-Male-Infertility&quot;,&quot;UrlNameArabic&quot;:&quot;التناسلية-والذكوره,ذكورة-و-عقم&quot;,&quot;SpecialityKey&quot;:&quot;spec00000088EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:200,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:200,&quot;Name&quot;:&quot;Audiology&quot;,&quot;NameArabic&quot;:&quot;سمعيات&quot;,&quot;NameConcat&quot;:&quot;سمعيات - Audiology&quot;,&quot;ImageUrl&quot;:&quot;&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:1000,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور سمعيات&quot;,&quot;PreferredName&quot;:&quot;Audiology&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:1000,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Audiology&quot;,&quot;UrlNameArabic&quot;:&quot;سمعيات&quot;,&quot;SpecialityKey&quot;:&quot;spec00000200EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:34,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:34,&quot;Name&quot;:&quot;Cardiology and Thoracic Surgery&quot;,&quot;NameArabic&quot;:&quot;جراحة قلب و صدر&quot;,&quot;NameConcat&quot;:&quot;جراحة قلب و صدر - Cardiology and Thoracic Surgery&quot;,&quot;ImageUrl&quot;:&quot;pulmonology.png&quot;,&quot;FriendlyName&quot;:&quot;Heart \u0026 Chest&quot;,&quot;SearchedCount&quot;:28,&quot;DisplayOrder&quot;:3069,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور جراحة قلب و صدر&quot;,&quot;PreferredName&quot;:&quot;Thoracic surgeon&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3069,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Thoracic-Surgery,Cardiology-and-Thoracic-Surgery&quot;,&quot;UrlNameArabic&quot;:&quot;جراحة-الصدر,جراحة-القلب-و-الصدر,جراحة-قلب-و-صدر&quot;,&quot;SpecialityKey&quot;:&quot;spec00000034EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:97,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:97,&quot;Name&quot;:&quot;Cardiology and Vascular Disease&quot;,&quot;NameArabic&quot;:&quot;قلب و اوعية دموية&quot;,&quot;NameConcat&quot;:&quot;قلب و اوعية دموية - Cardiology and Vascular Disease&quot;,&quot;ImageUrl&quot;:&quot;cardiology.png&quot;,&quot;FriendlyName&quot;:&quot;Heart&quot;,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:3102,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور قلب و اوعية دموية&quot;,&quot;PreferredName&quot;:&quot;Cardiology&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3095,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Cardiology-and-Vascular-Disease,Cardiology&quot;,&quot;UrlNameArabic&quot;:&quot;القلب-والاوعيه-الدمويه,قلب-و-اوعية-دموية,قلب&quot;,&quot;SpecialityKey&quot;:&quot;spec00000097EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:33,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:33,&quot;Name&quot;:&quot;Chest and Respiratory&quot;,&quot;NameArabic&quot;:&quot;صدر و جهاز تنفسي&quot;,&quot;NameConcat&quot;:&quot;صدر و جهاز تنفسي - Chest and Respiratory&quot;,&quot;ImageUrl&quot;:&quot;pulmonology.png&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:155,&quot;DisplayOrder&quot;:3080,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور  صدر و جهاز تنفسي&quot;,&quot;PreferredName&quot;:&quot;Pulmonologist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3098,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Respiratory-and-Chest,Chest-and-Respiratory,Chest&quot;,&quot;UrlNameArabic&quot;:&quot;امراض-صدرية,امراض-الجهاز-التنفسي-والصدر,صدر-و-جهاز-تنفسي,صدر&quot;,&quot;SpecialityKey&quot;:&quot;spec00000033EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:6,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:6,&quot;Name&quot;:&quot;Dentistry&quot;,&quot;NameArabic&quot;:&quot;اسنان&quot;,&quot;NameConcat&quot;:&quot;اسنان - Dentistry&quot;,&quot;ImageUrl&quot;:&quot;dentistry.png&quot;,&quot;FriendlyName&quot;:&quot;Teeth&quot;,&quot;SearchedCount&quot;:32081,&quot;DisplayOrder&quot;:3109,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور اسنان&quot;,&quot;PreferredName&quot;:&quot;Dentist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3094,&quot;MostSearchedByDisplayOrder&quot;:99,&quot;MostSearchedByArabicDisplayOrder&quot;:99,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Dentistry&quot;,&quot;UrlNameArabic&quot;:&quot;الاسنان,اسنان&quot;,&quot;SpecialityKey&quot;:&quot;spec00000006EG&quot;,&quot;SpecialtyPricingGroupId&quot;:2},{&quot;CountrySpecialityId&quot;:5,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:5,&quot;Name&quot;:&quot;Dermatology&quot;,&quot;NameArabic&quot;:&quot;امراض جلدية و تناسلية&quot;,&quot;NameConcat&quot;:&quot;امراض جلدية و تناسلية - Dermatology&quot;,&quot;ImageUrl&quot;:&quot;dermatology.png&quot;,&quot;FriendlyName&quot;:&quot;Skin&quot;,&quot;SearchedCount&quot;:6456,&quot;DisplayOrder&quot;:3110,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور امراض جلدية و تناسلية&quot;,&quot;PreferredName&quot;:&quot;Dermatologist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3096,&quot;MostSearchedByDisplayOrder&quot;:98,&quot;MostSearchedByArabicDisplayOrder&quot;:98,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Dermatology&quot;,&quot;UrlNameArabic&quot;:&quot;الجلدية,امراض-جلدية-و-تناسلية&quot;,&quot;SpecialityKey&quot;:&quot;spec00000005EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:201,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:201,&quot;Name&quot;:&quot;Diabetes and Endocrinology&quot;,&quot;NameArabic&quot;:&quot;سكر و غدد صماء&quot;,&quot;NameConcat&quot;:&quot;سكر و غدد صماء - Diabetes and Endocrinology&quot;,&quot;ImageUrl&quot;:&quot;&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:999,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور سكر و غدد صماء&quot;,&quot;PreferredName&quot;:&quot;Diabetes and Endocrinology&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:999,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Diabetes-and-Endocrinology&quot;,&quot;UrlNameArabic&quot;:&quot;سكر-و-غدد-صماء&quot;,&quot;SpecialityKey&quot;:&quot;spec00000201EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:90,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:90,&quot;Name&quot;:&quot;Dietitian and Nutrition&quot;,&quot;NameArabic&quot;:&quot;تخسيس و تغذية&quot;,&quot;NameConcat&quot;:&quot;تخسيس و تغذية - Dietitian and Nutrition&quot;,&quot;ImageUrl&quot;:&quot;dietetics.png&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:3082,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور تخسيس و تغذية&quot;,&quot;PreferredName&quot;:&quot;Dietitian and Weight Loss&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3089,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Dietitian-and-Weight-Loss,Nutrition-and-Dietitian,Dietitian-and-Nutrition&quot;,&quot;UrlNameArabic&quot;:&quot;التغذية-والتخسيس-والسمنه,تغذية-و-تخسيس,تخسيس-و-تغذية&quot;,&quot;SpecialityKey&quot;:&quot;spec00000090EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:38,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:38,&quot;Name&quot;:&quot;Ear, Nose and Throat&quot;,&quot;NameArabic&quot;:&quot;انف و اذن و حنجرة&quot;,&quot;NameConcat&quot;:&quot;انف و اذن و حنجرة - Ear, Nose and Throat&quot;,&quot;ImageUrl&quot;:&quot;otorhinolaryngology.png&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:1222,&quot;DisplayOrder&quot;:3103,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور انف و اذن و حنجرة&quot;,&quot;PreferredName&quot;:&quot;Otorhinolaryngologist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3087,&quot;MostSearchedByDisplayOrder&quot;:91,&quot;MostSearchedByArabicDisplayOrder&quot;:91,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Ear-Nose-and-Throat&quot;,&quot;UrlNameArabic&quot;:&quot;انف-واذن-و-حنجرة,انف-و-اذن-و-حنجرة&quot;,&quot;SpecialityKey&quot;:&quot;spec00000038EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:86,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:86,&quot;Name&quot;:&quot;Elders&quot;,&quot;NameArabic&quot;:&quot;طب مسنين&quot;,&quot;NameConcat&quot;:&quot;طب مسنين - Elders&quot;,&quot;ImageUrl&quot;:&quot;general.png&quot;,&quot;FriendlyName&quot;:&quot;Old People Health&quot;,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:3076,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور طب مسنين&quot;,&quot;PreferredName&quot;:&quot;Geriatric Medicine&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3068,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Old-People-Health,Geriatric-Medicine,Elders&quot;,&quot;UrlNameArabic&quot;:&quot;طب-كبار-السن,طب-المسنين,طب-مسنين&quot;,&quot;SpecialityKey&quot;:&quot;spec00000086EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:202,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:202,&quot;Name&quot;:&quot;Gastroenterology and Endoscopy&quot;,&quot;NameArabic&quot;:&quot;جهاز هضمي و مناظير&quot;,&quot;NameConcat&quot;:&quot;جهاز هضمي و مناظير - Gastroenterology and Endoscopy&quot;,&quot;ImageUrl&quot;:&quot;&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:998,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;جهاز هضمي و مناظير&quot;,&quot;PreferredName&quot;:&quot;Gastroenterology and Endoscopy&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:998,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Gastroenterology-and-Endoscopy&quot;,&quot;UrlNameArabic&quot;:&quot;جهاز-هضمي-ومناظير,جهاز-هضمي-و-مناظير&quot;,&quot;SpecialityKey&quot;:&quot;spec00000202EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:52,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:52,&quot;Name&quot;:&quot;General Practice&quot;,&quot;NameArabic&quot;:&quot;ممارسة عامة&quot;,&quot;NameConcat&quot;:&quot;ممارسة عامة - General Practice&quot;,&quot;ImageUrl&quot;:&quot;general.png&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:73,&quot;DisplayOrder&quot;:80,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;ممارس عام&quot;,&quot;PreferredName&quot;:&quot;General practitioner&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:34,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:1,&quot;UrlName&quot;:&quot;General-Practice&quot;,&quot;UrlNameArabic&quot;:&quot;ممارسة-عامة&quot;,&quot;SpecialityKey&quot;:&quot;spec00000052EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:16,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:16,&quot;Name&quot;:&quot;General Surgery&quot;,&quot;NameArabic&quot;:&quot;جراحة عامة&quot;,&quot;NameConcat&quot;:&quot;جراحة عامة - General Surgery&quot;,&quot;ImageUrl&quot;:&quot;surgery.png&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:3498,&quot;DisplayOrder&quot;:3079,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور جراحة عامة&quot;,&quot;PreferredName&quot;:&quot;General surgeon&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3072,&quot;MostSearchedByDisplayOrder&quot;:89,&quot;MostSearchedByArabicDisplayOrder&quot;:89,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Surgical-oncology,Oncology-Surgery,General-Surgery&quot;,&quot;UrlNameArabic&quot;:&quot;جراحة-الاورام,جراحة-عامة,جراحات-عامة,جراحة-عامة&quot;,&quot;SpecialityKey&quot;:&quot;spec00000016EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:19,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:19,&quot;Name&quot;:&quot;Gynaecology and Infertility&quot;,&quot;NameArabic&quot;:&quot;نساء و توليد&quot;,&quot;NameConcat&quot;:&quot;نساء و توليد - Gynaecology and Infertility&quot;,&quot;ImageUrl&quot;:&quot;gynecology.png&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:32202,&quot;DisplayOrder&quot;:3104,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور نساء و توليد&quot;,&quot;PreferredName&quot;:&quot;Obstetrician and gynecologist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3099,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Obstetrics-and-Gynecology,Gynecology-and-Infertility,Gynaecology-and-Infertility&quot;,&quot;UrlNameArabic&quot;:&quot;النساء-و-التوليد,نساء-و-توليد-و-عقم,نساء-و-توليد&quot;,&quot;SpecialityKey&quot;:&quot;spec00000019EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:54,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:54,&quot;Name&quot;:&quot;Hematology&quot;,&quot;NameArabic&quot;:&quot;امراض دم&quot;,&quot;NameConcat&quot;:&quot;امراض دم - Hematology&quot;,&quot;ImageUrl&quot;:&quot;general.png&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:63,&quot;DisplayOrder&quot;:75,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور امراض دم&quot;,&quot;PreferredName&quot;:&quot;Hematologist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:65,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Hematology&quot;,&quot;UrlNameArabic&quot;:&quot;امراض-الدم,امراض-دم&quot;,&quot;SpecialityKey&quot;:&quot;spec00000054EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:98,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:98,&quot;Name&quot;:&quot;Hepatology&quot;,&quot;NameArabic&quot;:&quot;كبد&quot;,&quot;NameConcat&quot;:&quot;كبد - Hepatology&quot;,&quot;ImageUrl&quot;:&quot;hepatology.png&quot;,&quot;FriendlyName&quot;:&quot;Liver Doctor&quot;,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:997,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور كبد&quot;,&quot;PreferredName&quot;:&quot;Hepatology&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:997,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Hepatology&quot;,&quot;UrlNameArabic&quot;:&quot;الكبد-والجهاز-الهضمي,كبد&quot;,&quot;SpecialityKey&quot;:&quot;spec00000098EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:20,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:20,&quot;Name&quot;:&quot;Internal Medicine&quot;,&quot;NameArabic&quot;:&quot;باطنة&quot;,&quot;NameConcat&quot;:&quot;باطنة - Internal Medicine&quot;,&quot;ImageUrl&quot;:&quot;internal.png&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:3696,&quot;DisplayOrder&quot;:3101,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور باطنة&quot;,&quot;PreferredName&quot;:&quot;Internist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3093,&quot;MostSearchedByDisplayOrder&quot;:95,&quot;MostSearchedByArabicDisplayOrder&quot;:95,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Internal-Medicine,Internal-Medicine-and-Gastroenterology,Internist-Kidney-Liver-and-Gastrology,Internal-Medicine&quot;,&quot;UrlNameArabic&quot;:&quot;الباطنة,الباطنة-و-الجهاز-الهضمي,الباطنة-و-الكلي-و-الكبد-و-الجهاز-الهضمي,باطنة&quot;,&quot;SpecialityKey&quot;:&quot;spec00000020EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:204,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:204,&quot;Name&quot;:&quot;IVF and Infertility&quot;,&quot;NameArabic&quot;:&quot;حقن مجهري و اطفال انابيب&quot;,&quot;NameConcat&quot;:&quot;حقن مجهري و اطفال انابيب - IVF and Infertility&quot;,&quot;ImageUrl&quot;:&quot;&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:996,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور حقن مجهري و اطفال انابيب&quot;,&quot;PreferredName&quot;:&quot;IVF and Infertility&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:996,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;IVF-and-Infertility&quot;,&quot;UrlNameArabic&quot;:&quot;حقن-مجهري-و-اطفال-انابيب&quot;,&quot;SpecialityKey&quot;:&quot;spec00000204EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:205,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:205,&quot;Name&quot;:&quot;Nephrology&quot;,&quot;NameArabic&quot;:&quot;كلى&quot;,&quot;NameConcat&quot;:&quot;كلى - Nephrology&quot;,&quot;ImageUrl&quot;:&quot;&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:995,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور كلى&quot;,&quot;PreferredName&quot;:&quot;Nephrology&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:995,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Nephrology&quot;,&quot;UrlNameArabic&quot;:&quot;كلى&quot;,&quot;SpecialityKey&quot;:&quot;spec00000205EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:21,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:21,&quot;Name&quot;:&quot;Neurology&quot;,&quot;NameArabic&quot;:&quot;مخ و اعصاب&quot;,&quot;NameConcat&quot;:&quot;مخ و اعصاب - Neurology&quot;,&quot;ImageUrl&quot;:&quot;neurology.png&quot;,&quot;FriendlyName&quot;:&quot;Brain \u0026 Nerves&quot;,&quot;SearchedCount&quot;:5961,&quot;DisplayOrder&quot;:3106,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور مخ و اعصاب&quot;,&quot;PreferredName&quot;:&quot;Neurologist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3097,&quot;MostSearchedByDisplayOrder&quot;:94,&quot;MostSearchedByArabicDisplayOrder&quot;:94,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Neurology&quot;,&quot;UrlNameArabic&quot;:&quot;المخ-والاعصاب,مخ-و-اعصاب&quot;,&quot;SpecialityKey&quot;:&quot;spec00000021EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:22,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:22,&quot;Name&quot;:&quot;Neurosurgery&quot;,&quot;NameArabic&quot;:&quot;جراحة مخ و اعصاب&quot;,&quot;NameConcat&quot;:&quot;جراحة مخ و اعصاب - Neurosurgery&quot;,&quot;ImageUrl&quot;:&quot;neurology.png&quot;,&quot;FriendlyName&quot;:&quot;Brain \u0026 Nerves Surgery&quot;,&quot;SearchedCount&quot;:190,&quot;DisplayOrder&quot;:3073,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور جراحة مخ و اعصاب&quot;,&quot;PreferredName&quot;:&quot;Neurosurgereon&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3074,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Neurosurgery&quot;,&quot;UrlNameArabic&quot;:&quot;جراحة-المخ-والاعصاب,جراحة-مخ-و-اعصاب&quot;,&quot;SpecialityKey&quot;:&quot;spec00000022EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:93,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:93,&quot;Name&quot;:&quot;Obesity and Laparoscopic Surgery&quot;,&quot;NameArabic&quot;:&quot;جراحة سمنة و مناظير&quot;,&quot;NameConcat&quot;:&quot;جراحة سمنة و مناظير - Obesity and Laparoscopic Surgery&quot;,&quot;ImageUrl&quot;:&quot;dietetics.png&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:3070,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور جراحة سمنة و مناظير&quot;,&quot;PreferredName&quot;:&quot;Obesity Surgery and Laparoscopic&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3071,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Obesity-Surgery-and-Laparoscopic,Obesity-and-Laparoscopic-Surgery&quot;,&quot;UrlNameArabic&quot;:&quot;جراحة-سمنه-ومناظير,جراحة-السمنة-و-التخسيس,جراحة-سمنة-و-مناظير&quot;,&quot;SpecialityKey&quot;:&quot;spec00000093EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:23,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:23,&quot;Name&quot;:&quot;Oncology&quot;,&quot;NameArabic&quot;:&quot;اورام&quot;,&quot;NameConcat&quot;:&quot;اورام - Oncology&quot;,&quot;ImageUrl&quot;:&quot;oncology.png&quot;,&quot;FriendlyName&quot;:&quot;Tumor&quot;,&quot;SearchedCount&quot;:1246,&quot;DisplayOrder&quot;:3087,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور اورام&quot;,&quot;PreferredName&quot;:&quot;Oncologist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3082,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Oncology&quot;,&quot;UrlNameArabic&quot;:&quot;الاورام,علاج-الأورام,اورام&quot;,&quot;SpecialityKey&quot;:&quot;spec00000023EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:94,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:94,&quot;Name&quot;:&quot;Ophthalmology&quot;,&quot;NameArabic&quot;:&quot;عيون&quot;,&quot;NameConcat&quot;:&quot;عيون - Ophthalmology&quot;,&quot;ImageUrl&quot;:&quot;general.png&quot;,&quot;FriendlyName&quot;:&quot;Eyes&quot;,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:3094,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور عيون&quot;,&quot;PreferredName&quot;:&quot;Opthalmology&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3086,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Ophthalmology&quot;,&quot;UrlNameArabic&quot;:&quot;العيون,عيون&quot;,&quot;SpecialityKey&quot;:&quot;spec00000094EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:26,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:26,&quot;Name&quot;:&quot;Orthopedics&quot;,&quot;NameArabic&quot;:&quot;عظام&quot;,&quot;NameConcat&quot;:&quot;عظام - Orthopedics&quot;,&quot;ImageUrl&quot;:&quot;orthopedics.png&quot;,&quot;FriendlyName&quot;:&quot;Bones&quot;,&quot;SearchedCount&quot;:3006,&quot;DisplayOrder&quot;:3105,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور عظام&quot;,&quot;PreferredName&quot;:&quot;Orthopedist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:80,&quot;MostSearchedByDisplayOrder&quot;:92,&quot;MostSearchedByArabicDisplayOrder&quot;:92,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Orthopedic-Surgery,Orthopedics&quot;,&quot;UrlNameArabic&quot;:&quot;جراحة-العظام,العظام,عظام&quot;,&quot;SpecialityKey&quot;:&quot;spec00000026EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:59,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:59,&quot;Name&quot;:&quot;Pain Management&quot;,&quot;NameArabic&quot;:&quot;علاج الآلام&quot;,&quot;NameConcat&quot;:&quot;علاج الآلام - Pain Management&quot;,&quot;ImageUrl&quot;:&quot;general.png&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:16,&quot;DisplayOrder&quot;:1,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور علاج الالام&quot;,&quot;PreferredName&quot;:&quot;Anesthesiologist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:1,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Anesthesiology,Pain-Management&quot;,&quot;UrlNameArabic&quot;:&quot;التخدير,علاج-الالام&quot;,&quot;SpecialityKey&quot;:&quot;spec00000059EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:206,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:206,&quot;Name&quot;:&quot;Pediatric Surgery&quot;,&quot;NameArabic&quot;:&quot;جراحة اطفال&quot;,&quot;NameConcat&quot;:&quot;جراحة اطفال - Pediatric Surgery&quot;,&quot;ImageUrl&quot;:&quot;&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:994,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور جراحة اطفال&quot;,&quot;PreferredName&quot;:&quot;Pediatric Surgery&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:994,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Pediatric-Surgery&quot;,&quot;UrlNameArabic&quot;:&quot;جراحة-اطفال&quot;,&quot;SpecialityKey&quot;:&quot;spec00000206EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:30,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:30,&quot;Name&quot;:&quot;Pediatrics and New Born&quot;,&quot;NameArabic&quot;:&quot;اطفال و حديثي الولادة&quot;,&quot;NameConcat&quot;:&quot;اطفال و حديثي الولادة - Pediatrics and New Born&quot;,&quot;ImageUrl&quot;:&quot;pediatrics.png&quot;,&quot;FriendlyName&quot;:&quot;Child&quot;,&quot;SearchedCount&quot;:11549,&quot;DisplayOrder&quot;:3107,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور اطفال و حديثي الولادة&quot;,&quot;PreferredName&quot;:&quot;Pediatrician&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3100,&quot;MostSearchedByDisplayOrder&quot;:97,&quot;MostSearchedByArabicDisplayOrder&quot;:97,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Pediatrics-and-New-Born&quot;,&quot;UrlNameArabic&quot;:&quot;الاطفال,اطفال-و-حديثي-الولادة&quot;,&quot;SpecialityKey&quot;:&quot;spec00000030EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:61,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:61,&quot;Name&quot;:&quot;Phoniatrics&quot;,&quot;NameArabic&quot;:&quot;نطق و تخاطب&quot;,&quot;NameConcat&quot;:&quot;نطق و تخاطب - Phoniatrics&quot;,&quot;ImageUrl&quot;:&quot;general.png&quot;,&quot;FriendlyName&quot;:&quot;Speech&quot;,&quot;SearchedCount&quot;:73,&quot;DisplayOrder&quot;:47,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور نطق و تخاطب&quot;,&quot;PreferredName&quot;:&quot;Phoniatrician&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:97,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Phoniatrics&quot;,&quot;UrlNameArabic&quot;:&quot;اضطرابات-النطق-,النطق-و-التخاطب,نطق-و-تخاطب&quot;,&quot;SpecialityKey&quot;:&quot;spec00000061EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:96,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:96,&quot;Name&quot;:&quot;Physiotherapy and Sport Injuries&quot;,&quot;NameArabic&quot;:&quot;علاج طبيعي و اصابات ملاعب&quot;,&quot;NameConcat&quot;:&quot;علاج طبيعي و اصابات ملاعب - Physiotherapy and Sport Injuries&quot;,&quot;ImageUrl&quot;:&quot;general.png&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:3088,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور علاج طبيعي و اصابات ملاعب&quot;,&quot;PreferredName&quot;:&quot;Physiotherapy and Sport Injuries&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3070,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Physiotherapy-and-Sport-Injuries&quot;,&quot;UrlNameArabic&quot;:&quot;العلاج-الطبيعي-والطب-التقويميعلاج-طبيعي-و-اصابات-الملاعب,العلاج-الطبيعي-والطب-التقويمي,علاج-طبيعي-و-اصابات-الملاعب,علاج-طبيعي-و-اصابات-ملاعب&quot;,&quot;SpecialityKey&quot;:&quot;spec00000096EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:101,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:101,&quot;Name&quot;:&quot;Plastic Surgery&quot;,&quot;NameArabic&quot;:&quot;جراحة تجميل&quot;,&quot;NameConcat&quot;:&quot;جراحة تجميل - Plastic Surgery&quot;,&quot;ImageUrl&quot;:&quot;dermatology.png&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:3089,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور جراحة تجميل&quot;,&quot;PreferredName&quot;:&quot;Plastic Surgery&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3083,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Cosmetic-Dermatology,Plastic-Surgery&quot;,&quot;UrlNameArabic&quot;:&quot;تجميل,تجميل-وليزر,جراحات-التجميل,جراحة-تجميل&quot;,&quot;SpecialityKey&quot;:&quot;spec00000101EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:32,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:32,&quot;Name&quot;:&quot;Psychiatry&quot;,&quot;NameArabic&quot;:&quot;نفسي&quot;,&quot;NameConcat&quot;:&quot;نفسي - Psychiatry&quot;,&quot;ImageUrl&quot;:&quot;psychiatry.png&quot;,&quot;FriendlyName&quot;:&quot;Mental, Emotional or Behavioral Disorders&quot;,&quot;SearchedCount&quot;:2317,&quot;DisplayOrder&quot;:3108,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور نفسي&quot;,&quot;PreferredName&quot;:&quot;Psychiatrist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3076,&quot;MostSearchedByDisplayOrder&quot;:90,&quot;MostSearchedByArabicDisplayOrder&quot;:90,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Psychiatry&quot;,&quot;UrlNameArabic&quot;:&quot;النفسية,نفسي&quot;,&quot;SpecialityKey&quot;:&quot;spec00000032EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:28,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:28,&quot;Name&quot;:&quot;Rheumatology&quot;,&quot;NameArabic&quot;:&quot;روماتيزم&quot;,&quot;NameConcat&quot;:&quot;روماتيزم - Rheumatology&quot;,&quot;ImageUrl&quot;:&quot;orthopedics.png&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:158,&quot;DisplayOrder&quot;:39,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور روماتيزم&quot;,&quot;PreferredName&quot;:&quot;Rheumatologist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:82,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Rheumatology&quot;,&quot;UrlNameArabic&quot;:&quot;الروماتيزم,روماتيزم&quot;,&quot;SpecialityKey&quot;:&quot;spec00000028EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:207,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:207,&quot;Name&quot;:&quot;Spinal Surgery&quot;,&quot;NameArabic&quot;:&quot;جراحة عمود فقري&quot;,&quot;NameConcat&quot;:&quot;جراحة عمود فقري - Spinal Surgery&quot;,&quot;ImageUrl&quot;:&quot;&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:993,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;جراحة عمود فقري&quot;,&quot;PreferredName&quot;:&quot;Spinal Surgery&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:993,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Spinal-Surgery&quot;,&quot;UrlNameArabic&quot;:&quot;جراحة-عمود-فقري&quot;,&quot;SpecialityKey&quot;:&quot;spec00000207EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:35,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:35,&quot;Name&quot;:&quot;Urology&quot;,&quot;NameArabic&quot;:&quot;مسالك بولية&quot;,&quot;NameConcat&quot;:&quot;مسالك بولية - Urology&quot;,&quot;ImageUrl&quot;:&quot;urology.png&quot;,&quot;FriendlyName&quot;:&quot;Urinary System&quot;,&quot;SearchedCount&quot;:257,&quot;DisplayOrder&quot;:3092,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور مسالك بولية&quot;,&quot;PreferredName&quot;:&quot;Urologist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3080,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Urology&quot;,&quot;UrlNameArabic&quot;:&quot;المسالك-البولية,مسالك-بولية&quot;,&quot;SpecialityKey&quot;:&quot;spec00000035EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:3,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:3,&quot;Name&quot;:&quot;Vascular Surgery&quot;,&quot;NameArabic&quot;:&quot;جراحة اوعية دموية&quot;,&quot;NameConcat&quot;:&quot;جراحة اوعية دموية - Vascular Surgery&quot;,&quot;ImageUrl&quot;:&quot;cardiology.png&quot;,&quot;FriendlyName&quot;:&quot;Arteries and Vein Surgery&quot;,&quot;SearchedCount&quot;:260,&quot;DisplayOrder&quot;:34,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور جراحة اوعية دموية&quot;,&quot;PreferredName&quot;:&quot;Vascular surgeon&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:50,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Vascular-surgery,Vascular-Surgery&quot;,&quot;UrlNameArabic&quot;:&quot;جراحة-اوعية-دموية,جراحات-الاوعية-الدموية,جراحة-اوعية-دموية&quot;,&quot;SpecialityKey&quot;:&quot;spec00000003EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1}],&quot;SpecialityId&quot;:null,&quot;SecondSpecialityIds&quot;:null,&quot;UrlName&quot;:null,&quot;UrlNameEnglish&quot;:null,&quot;ProductGroups&quot;:null,&quot;Area&quot;:null,&quot;City&quot;:null,&quot;SpecialityKey&quot;:null,&quot;SalesCode&quot;:null,&quot;AccountType&quot;:0,&quot;SecondaryAccountName&quot;:null,&quot;SecondaryAccountPassword&quot;:null,&quot;CountryPaymentMethods&quot;:[{&quot;CountryPaymentMethodId&quot;:1,&quot;PaymentMethodId&quot;:1,&quot;PaymentMethodName&quot;:&quot;Credit Card (Postpaid)&quot;,&quot;CountryId&quot;:1},{&quot;CountryPaymentMethodId&quot;:2,&quot;PaymentMethodId&quot;:2,&quot;PaymentMethodName&quot;:&quot;Cash (Prepaid)&quot;,&quot;CountryId&quot;:1}],&quot;PaymentMethodId&quot;:null,&quot;PaymentMethodEnabled&quot;:true,&quot;SpecialtyPricingGroupId&quot;:1,&quot;LicenseID&quot;:null,&quot;AccountBookingTypeId&quot;:0,&quot;CountryId&quot;:1,&quot;CountryPaymentMethodId&quot;:1,&quot;CountrySpecialityId&quot;:null,&quot;BillingCurrencyName&quot;:null,&quot;CountryISOCode&quot;:null,&quot;ActivationFees&quot;:null,&quot;Identifier&quot;:null,&quot;InvoiceNumber&quot;:null}';
+        $.ajax({
+            async: true,
+            type: "POST",
+            url: '/en/Account/LoadProductLines',
+            data: { viewModel: viewModel, specialityId: specialityId },
+            dataType: "json",
+            success: function (data) {
+                $("#productlinesmaindiv").html(data);
+
+                $('#productlinesmaindiv input[type=checkbox]').each(function () {
+                    $(this).prettyCheckable();
+                });
+                $('#productlinesmaindiv input[type=radio]').each(function () {
+                    $(this).prettyCheckable();
+                });
+            }
+        });
+    }
+</script>
+    </div>
+
+<input type="hidden" name="oldProductLinesList" />
+
+<div class="form-group">
+    <div class="col-sm-3">
+        <label class="control-label bluetext">Payment Method<sup>*</sup></label>
+    </div>
+    <div id="paymentmethodsgroup" class="col-sm-8 ">
+<input checked="checked" class="paymentmethod" data-label="Credit Card (Postpaid)" data-val="true" data-val-number="The field CountryPaymentMethodId must be a number." id="paymentmethod1" name="CountryPaymentMethodId" type="radio" value="1" /><input class="paymentmethod" data-label="Cash (Prepaid)" id="paymentmethod2" name="CountryPaymentMethodId" type="radio" value="2" />        <br />
+    </div>
+</div>
+
+<div class="form-group" id="SenderNameSection">
+    <label class="col-sm-3 control-label bluetext">Sender Name<sup>*</sup></label>
+    <div class="col-sm-8">
+        <input class="form-control" id="SenderName" maxlength="11" name="SenderName" onkeypress="validateTextInput(event)" onkeyup="validateTextLength(&quot;#SenderName&quot;, &quot;#emptySenderName&quot;, 11, &quot;#greaterThan11&quot;, 2500)" type="text" value="" />
+        <span class="field-validation-valid" data-valmsg-for="SenderName" data-valmsg-replace="true"></span>
+        <span class="red" id="greaterThan11" hidden="hidden">Max Sender Name Length Reached</span>
+        <span class="red" id="emptySenderName" hidden="hidden">Please enter your sender name</span>
+    </div>
+</div>
+
+    <div class="form-group">
+        <div class="col-sm-3">
+            <label class="control-label bluetext">Account Type<sup>*</sup></label>
+        </div>
+        <div class="col-sm-8">
+                <input type="radio" class="col-xs-4" name="AccountType" data-label="Primary" value="1"
+					   checked />
+                <input type="radio" class="col-xs-4" name="AccountType" data-label="Secondary" value="2"
+					    />
+			<br />
+            <label class="account-type-desc">Choose secondary if you have another Vezeeta account</label>
+            <div id="secondary-account" style="display: none;">
+                <label class="bluetext">Email Address</label>
+				<input autocomplete="off" class="form-control" id="SecondaryAccountName" name="SecondaryAccountName" type="text" value="" />
+                <label class="bluetext">Password</label>
+				<input class="form-control" id="SecondaryAccountPassword" name="SecondaryAccountPassword" type="Password" value="" />
+            </div>
+            <span class="red" id="emptySecondaryAccount" hidden="hidden">Please enter secondary account email address and password</span>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-3">
+            <label class="control-label bluetext">Profession Practicing License<sup>*</sup></label>
+        </div>
+        <div class="col-sm-8 margin-top-15">
+            <input type="file" id="professionPracticing" name="professionPracticing" required accept="image/*">
+			<label class="item-desc-img">*Profession Practicing License image should be PNG, JPG, JPEG, or BMP</label><br />
+            <span class="red" id="ppr" hidden="hidden">License Image is Required</span>
+            <span hidden="hidden" id="invalidFileFormat" class="red">The file uploaded is not an image</span>
+			<input id="fileSelected" type="text" style="display: none;" />
+            
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-3 control-label bluetext">Password<sup>*</sup></label>
+        <div class="col-sm-8">
+            <input class="form-control" data-val="true" data-val-length="Password length should be at least 6 characters" data-val-length-max="50" data-val-length-min="6" data-val-required="Password is required" id="Password" name="Password" type="Password" value="" />
+            
+            <span class="red" id="pwdreqir" hidden="hidden">Password length should be at least 6 characters</span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-3 control-label bluetext">Confirm Password<sup>*</sup></label>
+        <div class="col-sm-8">
+            <input type="password" id="ConfirmPassword" class="form-control">
+            <span id="CheckPasswordMatch" class="red" hidden="hidden">Password does not match</span>
+        </div>
+    </div>
+
+
+    <script type="text/javascript">
+        var countryId = $("#CountryId").val();
+        if (countryId == "1")
+            $("#AccountBookingType").parent().show();
+    </script>                    <div class="form-group">
+                        <div class="col-sm-3">
+                            <label class="control-label bluetext">Referal Code</label>
+                        </div>
+                        <div class="col-sm-8">
+                            <input type="checkbox" id="SalesReferalCheckBox" data-label="Referal Code" />
+                        </div>
+                    </div>
+                    <div id="ReferalDiv" class="form-group displaynone">
+                        <div class="col-sm-8 col-sm-offset-3">
+                            <input class="form-control" type="text" id="ReferalInput" name="SalesCode" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-3 control-label"></div>
+                        <div class="col-sm-8">
+                            <div>
+                                <label class=" control-label termsFont" style="font-size: 16px;">By signing up you agree to our  <a style="text-decoration: underline" target="_blank" href="/en/Generic/termsandconditions">Terms Of Use </a></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-3 col-sm-8">
+                            <button id="SignUpButton" class="btn-2rd btn-2erd btn2" type="button" style="width: 100px;">Sign Up</button>
+                        </div>
+                    </div>
+</form>
+            </div>
+        </div>
+    </div>
+    <div class="RunPtsImg hidden">
+        <img class="runningPoints" src="/Assets/Img/LoadingCircle.GIF" />
+        <label class="runningPointsLabel economica bluetext">Creating Your Vezeeta Account</label>
+    </div>
+</div>
+<style>
+    body {
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    #Vimg {
+        margin-top: 50px;
+    }
+
+    @media screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+        #Vimg {
+            margin-top: 150px;
+        }
+    }
+
+    #divk label {
+        margin-bottom: -5px !important;
+    }
+
+    .input-validation-error2 {
+        border-color: #c71b2c !important;
+    }
+
+    #s2id_AreaId .select2-choice {
+        background: url("/Assets/Images/map-marker.png") no-repeat scroll 5px 5px #fff;
+    }
+
+    #s2id_CityId .select2-choice {
+        background: url("/Assets/Images/map-marker.png") no-repeat scroll 5px 5px #fff;
+    }
+
+    #s2id_MultiProductIds .select2-search-field {
+        display: none;
+    }
+
+    #s2id_ProductId .select2-choice {
+        background: url("/Assets/Images/Product.png") no-repeat scroll 5px 5px #fff;
+    }
+
+    #s2id_MultiProductIds .select2-choices {
+        border-radius: 7px;
+        background-image: none;
+        padding: 2px;
+    }
+
+    .prettycheckbox {
+        margin-bottom: -15px;
+    }
+
+    .prettyradio {
+        margin-bottom: -15px;
+    }
+
+    #s2id_MultiSecondSpecialityId .select2-search-field {
+        display: none;
+    }
+
+    .select2-container-multi .select2-choices .select2-search-choice {
+        padding: 3px 18px 3px 18px;
+        margin: 3px 5px 3px 5px;
+    }
+
+    #s2id_MultiSecondSpecialityId .select2-choices {
+        border-radius: 7px;
+        background-image: none;
+        padding: 2px;
+    }
+
+    #s2id_SecondSpecialityId .select2-choice {
+        background: url("/Assets/Images/specialties-big.png") no-repeat scroll 5px 5px #fff;
+    }
+
+    #s2id_SpecialityId .select2-choice {
+        background: url("/Assets/Images/specialties-big.png") no-repeat scroll 5px 5px #fff;
+    }
+
+    .dropDownMulti .select2-search-choice {
+        line-height: 16px;
+    }
+
+    .account-type-desc {
+        font-size: 11px;
+        padding-left: 5px;
+        color: #808184;
+        vertical-align: -5px;
+    }
+</style>
+<style type="text/css">
+    .mainwrapper {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: 1;
+    }
+
+    .mainwrapper {
+        z-index: 10;
+    }
+
+    .RunPtsImg {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    .runningPoints {
+        position: absolute;
+        margin-left: 34%;
+        margin-top: -70%;
+    }
+
+    .runningPointsLabel {
+        position: absolute;
+        margin-left: 40%;
+        margin-top: -69%;
+        font-size: 30px;
+    }
+
+    .beside {
+        float: left;
+        display: inline;
+    }
+</style>
+<script type="text/javascript">
+
+    var productLineCount = 0;
+    var specialityValidation = false;
+    var profPractice = false;
+    var secondSpecialityRequired = false;
+
+    function validateTextInput(evt)
+    {
+        var theEvent = evt || window.event;
+        var key = theEvent.keyCode || theEvent.which;
+        key = String.fromCharCode(key);
+        var regex = /[0-9!@#$%^&*()_+|~=`{}\\\\[\]:";'<>?,\\/ ]/;
+        if (regex.test(key))
+        {
+            theEvent.returnValue = false;
+            if (theEvent.preventDefault) theEvent.preventDefault();
+        }
+    }
+
+    function validateTextLength(item, validation, length, lengthValidation, duration)
+    {
+
+        if (length != null && lengthValidation != null && duration != null)
+        {
+            if ($(item).val().length >= length)
+            {
+                $(lengthValidation).show();
+                setTimeout(function () { $(lengthValidation).hide(); }, duration);
+            }
+        }
+
+        if ($(item).val() == "")
+        {
+            $(validation).show();
+            return false;
+        } else
+        {
+            $(validation).hide();
+            return true;
+        }
+    }
+
+    $('#SalesReferalCheckBox').change(function ()
+    {
+        if ($(this).is(":checked"))
+        {
+            $('#ReferalDiv').show();
+        } else
+        {
+            $('#ReferalDiv').hide();
+        }
+        $('#ReferalInput').val('');
+    });
+
+    $("body").keyup(function (event)
+    {
+        if (event.keyCode == 13)
+        {
+            $('#invalidArea').addClass("hidden");
+            $("#SignUpButton").click();
+        }
+    });
+
+    $(document).ready(function () {
+        loadCities();
+        //loadAreas();
+
+
+        $("#ConfirmPassword").keyup(checkPasswordMatch);
+        $("#Password").keyup(checkPassword);
+        $("#SecondaryAccountName").keyup(checkSecondaryAccount);
+        $("#SecondaryAccountPassword").keyup(checkSecondaryAccount);
+
+        validateSecondaryAccount($('input[name="AccountType"]:checked'));
+
+
+        $('#s2id_AreaId a span:first-child').bind("DOMSubtreeModified", function ()
+        {
+            $('#invalidArea').hide();
+        });
+
+        if ($('#SpecialityId').select2("val") != '')
+            ChangeSpeciality();
+
+        var accountBookingTypeId = '0';
+
+        if (accountBookingTypeId == 2)
+        {
+            $("#SenderName").val("Vezeeta.com");
+            $("#SenderName").prop('disabled', true);
+            $("#emptySenderName").hide();
+        }
+        //if ($('input[name="AccountBookingTypeId"]:checked').val() == 2)
+            //$("#productlinesmaindiv").hide();
+    });
+
+    $("#CityId").change(function ()
+    {
+        loadAreas();
+    });
+
+    function loadAreas()
+    {
+        $("#AreaId").html('');
+        var action = '/en/Account/GetAreasInCity';
+        $.ajax({
+            type: 'get',
+            url: action,
+            //data: { cityId: 1 },
+            data: { cityId: $('#CityId option:selected').val() },
+            success: function (response)
+            {
+                $("#AreaId").html(response);
+                $("#AreaId").select2();
+            }
+        });
+    }
+
+    function loadCities() {
+        $("#CityId").html('');
+        var action = '/en/Account/GetCitiesInCountry';
+        $.ajax({
+            type: 'get',
+            url: action,
+            
+            data: { countryId: $('#CountryId').val() },
+            success: function (response) {
+                $("#CityId").html(response);
+                $("#CityId").select2();
+                loadAreas();
+            }
+        });
+    }
+
+    function ValidateNameLength(evt)
+    {
+        //$("#FullName").val().length < 5
+        if ($("#FullName").val() == "" || trimSpace($("#FullName").val()).length < 5)
+        {
+            $("#lessthan").show();
+            //$("#FullName").addClass('input-validation-error2');
+        } else
+        {
+            $("#lessthan").hide();
+            //$("#FullName").removeClass('input-validation-error2');
+        }
+    }
+    function validateName(evt)
+    {
+
+        var theEvent = evt || window.event;
+        var key = theEvent.keyCode || theEvent.which;
+        key = String.fromCharCode(key);
+        var regex = /[0-9-!@#$%^&*()_+|~=`{}\[\]:";'<>?,.\/]/;
+        if (regex.test(key))
+        {
+            theEvent.returnValue = false;
+            if (theEvent.preventDefault) theEvent.preventDefault();
+        }
+    }
+
+    function trimSpace(string)
+    {
+        while (string.charAt(string.length - 1) == ' ')
+        {
+            string = string.slice(0, -1);
+        }
+        return string;
+    }
+
+    $('.dateDropDown').select2({
+        dropdownAutoWidth: true,
+    });
+
+    $('.dropDown').select2({
+        dropdownAutoWidth: true,
+    });
+
+    $('.dropDownArea').select2({
+        //dropdownAutoWidth: true,
+    }).on('change', function (e)
+    {
+        if ($("#AreaId").val() == 0)
+        {
+            $('#invalidArea').show();
+        } else
+        {
+            $('#invalidArea').hide();
+        }
+    });
+
+    $('.SpecialityDropDown').select2({
+        //dropdownAutoWidth: true,
+    }).on('change', function (e)
+    {
+        ChangeSpeciality();
+    });
+
+    var currentSpecialtyPricingGroup = '1';
+    var specialtiesList = '[{&quot;CountrySpecialityId&quot;:58,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:58,&quot;Name&quot;:&quot;Allergy and Immunology&quot;,&quot;NameArabic&quot;:&quot;حساسية و مناعة&quot;,&quot;NameConcat&quot;:&quot;حساسية و مناعة - Allergy and Immunology&quot;,&quot;ImageUrl&quot;:&quot;general.png&quot;,&quot;FriendlyName&quot;:&quot;Sensitivity and Immunity&quot;,&quot;SearchedCount&quot;:116,&quot;DisplayOrder&quot;:99,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور حساسية و مناعة&quot;,&quot;PreferredName&quot;:&quot;Allergist and Immunologist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:100,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Allergy-and-Immunology&quot;,&quot;UrlNameArabic&quot;:&quot;-الحساسية-والمناعة,حساسية-و-مناعة&quot;,&quot;SpecialityKey&quot;:&quot;spec00000058EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:88,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:88,&quot;Name&quot;:&quot;Andrology and Male Infertility&quot;,&quot;NameArabic&quot;:&quot;ذكورة و عقم&quot;,&quot;NameConcat&quot;:&quot;ذكورة و عقم - Andrology and Male Infertility&quot;,&quot;ImageUrl&quot;:&quot;general.png&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:3090,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور ذكورة و عقم&quot;,&quot;PreferredName&quot;:&quot;Andrology and Genital Dermatology&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3081,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Andrology-and-Genital-Dermatology,Andrology-and-Male-Infertility&quot;,&quot;UrlNameArabic&quot;:&quot;التناسلية-والذكوره,ذكورة-و-عقم&quot;,&quot;SpecialityKey&quot;:&quot;spec00000088EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:200,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:200,&quot;Name&quot;:&quot;Audiology&quot;,&quot;NameArabic&quot;:&quot;سمعيات&quot;,&quot;NameConcat&quot;:&quot;سمعيات - Audiology&quot;,&quot;ImageUrl&quot;:&quot;&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:1000,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور سمعيات&quot;,&quot;PreferredName&quot;:&quot;Audiology&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:1000,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Audiology&quot;,&quot;UrlNameArabic&quot;:&quot;سمعيات&quot;,&quot;SpecialityKey&quot;:&quot;spec00000200EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:34,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:34,&quot;Name&quot;:&quot;Cardiology and Thoracic Surgery&quot;,&quot;NameArabic&quot;:&quot;جراحة قلب و صدر&quot;,&quot;NameConcat&quot;:&quot;جراحة قلب و صدر - Cardiology and Thoracic Surgery&quot;,&quot;ImageUrl&quot;:&quot;pulmonology.png&quot;,&quot;FriendlyName&quot;:&quot;Heart \u0026 Chest&quot;,&quot;SearchedCount&quot;:28,&quot;DisplayOrder&quot;:3069,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور جراحة قلب و صدر&quot;,&quot;PreferredName&quot;:&quot;Thoracic surgeon&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3069,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Thoracic-Surgery,Cardiology-and-Thoracic-Surgery&quot;,&quot;UrlNameArabic&quot;:&quot;جراحة-الصدر,جراحة-القلب-و-الصدر,جراحة-قلب-و-صدر&quot;,&quot;SpecialityKey&quot;:&quot;spec00000034EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:97,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:97,&quot;Name&quot;:&quot;Cardiology and Vascular Disease&quot;,&quot;NameArabic&quot;:&quot;قلب و اوعية دموية&quot;,&quot;NameConcat&quot;:&quot;قلب و اوعية دموية - Cardiology and Vascular Disease&quot;,&quot;ImageUrl&quot;:&quot;cardiology.png&quot;,&quot;FriendlyName&quot;:&quot;Heart&quot;,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:3102,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور قلب و اوعية دموية&quot;,&quot;PreferredName&quot;:&quot;Cardiology&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3095,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Cardiology-and-Vascular-Disease,Cardiology&quot;,&quot;UrlNameArabic&quot;:&quot;القلب-والاوعيه-الدمويه,قلب-و-اوعية-دموية,قلب&quot;,&quot;SpecialityKey&quot;:&quot;spec00000097EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:33,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:33,&quot;Name&quot;:&quot;Chest and Respiratory&quot;,&quot;NameArabic&quot;:&quot;صدر و جهاز تنفسي&quot;,&quot;NameConcat&quot;:&quot;صدر و جهاز تنفسي - Chest and Respiratory&quot;,&quot;ImageUrl&quot;:&quot;pulmonology.png&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:155,&quot;DisplayOrder&quot;:3080,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور  صدر و جهاز تنفسي&quot;,&quot;PreferredName&quot;:&quot;Pulmonologist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3098,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Respiratory-and-Chest,Chest-and-Respiratory,Chest&quot;,&quot;UrlNameArabic&quot;:&quot;امراض-صدرية,امراض-الجهاز-التنفسي-والصدر,صدر-و-جهاز-تنفسي,صدر&quot;,&quot;SpecialityKey&quot;:&quot;spec00000033EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:6,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:6,&quot;Name&quot;:&quot;Dentistry&quot;,&quot;NameArabic&quot;:&quot;اسنان&quot;,&quot;NameConcat&quot;:&quot;اسنان - Dentistry&quot;,&quot;ImageUrl&quot;:&quot;dentistry.png&quot;,&quot;FriendlyName&quot;:&quot;Teeth&quot;,&quot;SearchedCount&quot;:32081,&quot;DisplayOrder&quot;:3109,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور اسنان&quot;,&quot;PreferredName&quot;:&quot;Dentist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3094,&quot;MostSearchedByDisplayOrder&quot;:99,&quot;MostSearchedByArabicDisplayOrder&quot;:99,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Dentistry&quot;,&quot;UrlNameArabic&quot;:&quot;الاسنان,اسنان&quot;,&quot;SpecialityKey&quot;:&quot;spec00000006EG&quot;,&quot;SpecialtyPricingGroupId&quot;:2},{&quot;CountrySpecialityId&quot;:5,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:5,&quot;Name&quot;:&quot;Dermatology&quot;,&quot;NameArabic&quot;:&quot;امراض جلدية و تناسلية&quot;,&quot;NameConcat&quot;:&quot;امراض جلدية و تناسلية - Dermatology&quot;,&quot;ImageUrl&quot;:&quot;dermatology.png&quot;,&quot;FriendlyName&quot;:&quot;Skin&quot;,&quot;SearchedCount&quot;:6456,&quot;DisplayOrder&quot;:3110,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور امراض جلدية و تناسلية&quot;,&quot;PreferredName&quot;:&quot;Dermatologist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3096,&quot;MostSearchedByDisplayOrder&quot;:98,&quot;MostSearchedByArabicDisplayOrder&quot;:98,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Dermatology&quot;,&quot;UrlNameArabic&quot;:&quot;الجلدية,امراض-جلدية-و-تناسلية&quot;,&quot;SpecialityKey&quot;:&quot;spec00000005EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:201,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:201,&quot;Name&quot;:&quot;Diabetes and Endocrinology&quot;,&quot;NameArabic&quot;:&quot;سكر و غدد صماء&quot;,&quot;NameConcat&quot;:&quot;سكر و غدد صماء - Diabetes and Endocrinology&quot;,&quot;ImageUrl&quot;:&quot;&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:999,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور سكر و غدد صماء&quot;,&quot;PreferredName&quot;:&quot;Diabetes and Endocrinology&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:999,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Diabetes-and-Endocrinology&quot;,&quot;UrlNameArabic&quot;:&quot;سكر-و-غدد-صماء&quot;,&quot;SpecialityKey&quot;:&quot;spec00000201EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:90,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:90,&quot;Name&quot;:&quot;Dietitian and Nutrition&quot;,&quot;NameArabic&quot;:&quot;تخسيس و تغذية&quot;,&quot;NameConcat&quot;:&quot;تخسيس و تغذية - Dietitian and Nutrition&quot;,&quot;ImageUrl&quot;:&quot;dietetics.png&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:3082,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور تخسيس و تغذية&quot;,&quot;PreferredName&quot;:&quot;Dietitian and Weight Loss&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3089,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Dietitian-and-Weight-Loss,Nutrition-and-Dietitian,Dietitian-and-Nutrition&quot;,&quot;UrlNameArabic&quot;:&quot;التغذية-والتخسيس-والسمنه,تغذية-و-تخسيس,تخسيس-و-تغذية&quot;,&quot;SpecialityKey&quot;:&quot;spec00000090EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:38,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:38,&quot;Name&quot;:&quot;Ear, Nose and Throat&quot;,&quot;NameArabic&quot;:&quot;انف و اذن و حنجرة&quot;,&quot;NameConcat&quot;:&quot;انف و اذن و حنجرة - Ear, Nose and Throat&quot;,&quot;ImageUrl&quot;:&quot;otorhinolaryngology.png&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:1222,&quot;DisplayOrder&quot;:3103,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور انف و اذن و حنجرة&quot;,&quot;PreferredName&quot;:&quot;Otorhinolaryngologist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3087,&quot;MostSearchedByDisplayOrder&quot;:91,&quot;MostSearchedByArabicDisplayOrder&quot;:91,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Ear-Nose-and-Throat&quot;,&quot;UrlNameArabic&quot;:&quot;انف-واذن-و-حنجرة,انف-و-اذن-و-حنجرة&quot;,&quot;SpecialityKey&quot;:&quot;spec00000038EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:86,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:86,&quot;Name&quot;:&quot;Elders&quot;,&quot;NameArabic&quot;:&quot;طب مسنين&quot;,&quot;NameConcat&quot;:&quot;طب مسنين - Elders&quot;,&quot;ImageUrl&quot;:&quot;general.png&quot;,&quot;FriendlyName&quot;:&quot;Old People Health&quot;,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:3076,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور طب مسنين&quot;,&quot;PreferredName&quot;:&quot;Geriatric Medicine&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3068,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Old-People-Health,Geriatric-Medicine,Elders&quot;,&quot;UrlNameArabic&quot;:&quot;طب-كبار-السن,طب-المسنين,طب-مسنين&quot;,&quot;SpecialityKey&quot;:&quot;spec00000086EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:202,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:202,&quot;Name&quot;:&quot;Gastroenterology and Endoscopy&quot;,&quot;NameArabic&quot;:&quot;جهاز هضمي و مناظير&quot;,&quot;NameConcat&quot;:&quot;جهاز هضمي و مناظير - Gastroenterology and Endoscopy&quot;,&quot;ImageUrl&quot;:&quot;&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:998,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;جهاز هضمي و مناظير&quot;,&quot;PreferredName&quot;:&quot;Gastroenterology and Endoscopy&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:998,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Gastroenterology-and-Endoscopy&quot;,&quot;UrlNameArabic&quot;:&quot;جهاز-هضمي-ومناظير,جهاز-هضمي-و-مناظير&quot;,&quot;SpecialityKey&quot;:&quot;spec00000202EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:52,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:52,&quot;Name&quot;:&quot;General Practice&quot;,&quot;NameArabic&quot;:&quot;ممارسة عامة&quot;,&quot;NameConcat&quot;:&quot;ممارسة عامة - General Practice&quot;,&quot;ImageUrl&quot;:&quot;general.png&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:73,&quot;DisplayOrder&quot;:80,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;ممارس عام&quot;,&quot;PreferredName&quot;:&quot;General practitioner&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:34,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:1,&quot;UrlName&quot;:&quot;General-Practice&quot;,&quot;UrlNameArabic&quot;:&quot;ممارسة-عامة&quot;,&quot;SpecialityKey&quot;:&quot;spec00000052EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:16,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:16,&quot;Name&quot;:&quot;General Surgery&quot;,&quot;NameArabic&quot;:&quot;جراحة عامة&quot;,&quot;NameConcat&quot;:&quot;جراحة عامة - General Surgery&quot;,&quot;ImageUrl&quot;:&quot;surgery.png&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:3498,&quot;DisplayOrder&quot;:3079,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور جراحة عامة&quot;,&quot;PreferredName&quot;:&quot;General surgeon&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3072,&quot;MostSearchedByDisplayOrder&quot;:89,&quot;MostSearchedByArabicDisplayOrder&quot;:89,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Surgical-oncology,Oncology-Surgery,General-Surgery&quot;,&quot;UrlNameArabic&quot;:&quot;جراحة-الاورام,جراحة-عامة,جراحات-عامة,جراحة-عامة&quot;,&quot;SpecialityKey&quot;:&quot;spec00000016EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:19,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:19,&quot;Name&quot;:&quot;Gynaecology and Infertility&quot;,&quot;NameArabic&quot;:&quot;نساء و توليد&quot;,&quot;NameConcat&quot;:&quot;نساء و توليد - Gynaecology and Infertility&quot;,&quot;ImageUrl&quot;:&quot;gynecology.png&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:32202,&quot;DisplayOrder&quot;:3104,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور نساء و توليد&quot;,&quot;PreferredName&quot;:&quot;Obstetrician and gynecologist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3099,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Obstetrics-and-Gynecology,Gynecology-and-Infertility,Gynaecology-and-Infertility&quot;,&quot;UrlNameArabic&quot;:&quot;النساء-و-التوليد,نساء-و-توليد-و-عقم,نساء-و-توليد&quot;,&quot;SpecialityKey&quot;:&quot;spec00000019EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:54,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:54,&quot;Name&quot;:&quot;Hematology&quot;,&quot;NameArabic&quot;:&quot;امراض دم&quot;,&quot;NameConcat&quot;:&quot;امراض دم - Hematology&quot;,&quot;ImageUrl&quot;:&quot;general.png&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:63,&quot;DisplayOrder&quot;:75,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور امراض دم&quot;,&quot;PreferredName&quot;:&quot;Hematologist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:65,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Hematology&quot;,&quot;UrlNameArabic&quot;:&quot;امراض-الدم,امراض-دم&quot;,&quot;SpecialityKey&quot;:&quot;spec00000054EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:98,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:98,&quot;Name&quot;:&quot;Hepatology&quot;,&quot;NameArabic&quot;:&quot;كبد&quot;,&quot;NameConcat&quot;:&quot;كبد - Hepatology&quot;,&quot;ImageUrl&quot;:&quot;hepatology.png&quot;,&quot;FriendlyName&quot;:&quot;Liver Doctor&quot;,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:997,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور كبد&quot;,&quot;PreferredName&quot;:&quot;Hepatology&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:997,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Hepatology&quot;,&quot;UrlNameArabic&quot;:&quot;الكبد-والجهاز-الهضمي,كبد&quot;,&quot;SpecialityKey&quot;:&quot;spec00000098EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:20,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:20,&quot;Name&quot;:&quot;Internal Medicine&quot;,&quot;NameArabic&quot;:&quot;باطنة&quot;,&quot;NameConcat&quot;:&quot;باطنة - Internal Medicine&quot;,&quot;ImageUrl&quot;:&quot;internal.png&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:3696,&quot;DisplayOrder&quot;:3101,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور باطنة&quot;,&quot;PreferredName&quot;:&quot;Internist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3093,&quot;MostSearchedByDisplayOrder&quot;:95,&quot;MostSearchedByArabicDisplayOrder&quot;:95,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Internal-Medicine,Internal-Medicine-and-Gastroenterology,Internist-Kidney-Liver-and-Gastrology,Internal-Medicine&quot;,&quot;UrlNameArabic&quot;:&quot;الباطنة,الباطنة-و-الجهاز-الهضمي,الباطنة-و-الكلي-و-الكبد-و-الجهاز-الهضمي,باطنة&quot;,&quot;SpecialityKey&quot;:&quot;spec00000020EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:204,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:204,&quot;Name&quot;:&quot;IVF and Infertility&quot;,&quot;NameArabic&quot;:&quot;حقن مجهري و اطفال انابيب&quot;,&quot;NameConcat&quot;:&quot;حقن مجهري و اطفال انابيب - IVF and Infertility&quot;,&quot;ImageUrl&quot;:&quot;&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:996,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور حقن مجهري و اطفال انابيب&quot;,&quot;PreferredName&quot;:&quot;IVF and Infertility&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:996,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;IVF-and-Infertility&quot;,&quot;UrlNameArabic&quot;:&quot;حقن-مجهري-و-اطفال-انابيب&quot;,&quot;SpecialityKey&quot;:&quot;spec00000204EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:205,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:205,&quot;Name&quot;:&quot;Nephrology&quot;,&quot;NameArabic&quot;:&quot;كلى&quot;,&quot;NameConcat&quot;:&quot;كلى - Nephrology&quot;,&quot;ImageUrl&quot;:&quot;&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:995,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور كلى&quot;,&quot;PreferredName&quot;:&quot;Nephrology&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:995,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Nephrology&quot;,&quot;UrlNameArabic&quot;:&quot;كلى&quot;,&quot;SpecialityKey&quot;:&quot;spec00000205EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:21,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:21,&quot;Name&quot;:&quot;Neurology&quot;,&quot;NameArabic&quot;:&quot;مخ و اعصاب&quot;,&quot;NameConcat&quot;:&quot;مخ و اعصاب - Neurology&quot;,&quot;ImageUrl&quot;:&quot;neurology.png&quot;,&quot;FriendlyName&quot;:&quot;Brain \u0026 Nerves&quot;,&quot;SearchedCount&quot;:5961,&quot;DisplayOrder&quot;:3106,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور مخ و اعصاب&quot;,&quot;PreferredName&quot;:&quot;Neurologist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3097,&quot;MostSearchedByDisplayOrder&quot;:94,&quot;MostSearchedByArabicDisplayOrder&quot;:94,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Neurology&quot;,&quot;UrlNameArabic&quot;:&quot;المخ-والاعصاب,مخ-و-اعصاب&quot;,&quot;SpecialityKey&quot;:&quot;spec00000021EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:22,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:22,&quot;Name&quot;:&quot;Neurosurgery&quot;,&quot;NameArabic&quot;:&quot;جراحة مخ و اعصاب&quot;,&quot;NameConcat&quot;:&quot;جراحة مخ و اعصاب - Neurosurgery&quot;,&quot;ImageUrl&quot;:&quot;neurology.png&quot;,&quot;FriendlyName&quot;:&quot;Brain \u0026 Nerves Surgery&quot;,&quot;SearchedCount&quot;:190,&quot;DisplayOrder&quot;:3073,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور جراحة مخ و اعصاب&quot;,&quot;PreferredName&quot;:&quot;Neurosurgereon&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3074,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Neurosurgery&quot;,&quot;UrlNameArabic&quot;:&quot;جراحة-المخ-والاعصاب,جراحة-مخ-و-اعصاب&quot;,&quot;SpecialityKey&quot;:&quot;spec00000022EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:93,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:93,&quot;Name&quot;:&quot;Obesity and Laparoscopic Surgery&quot;,&quot;NameArabic&quot;:&quot;جراحة سمنة و مناظير&quot;,&quot;NameConcat&quot;:&quot;جراحة سمنة و مناظير - Obesity and Laparoscopic Surgery&quot;,&quot;ImageUrl&quot;:&quot;dietetics.png&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:3070,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور جراحة سمنة و مناظير&quot;,&quot;PreferredName&quot;:&quot;Obesity Surgery and Laparoscopic&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3071,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Obesity-Surgery-and-Laparoscopic,Obesity-and-Laparoscopic-Surgery&quot;,&quot;UrlNameArabic&quot;:&quot;جراحة-سمنه-ومناظير,جراحة-السمنة-و-التخسيس,جراحة-سمنة-و-مناظير&quot;,&quot;SpecialityKey&quot;:&quot;spec00000093EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:23,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:23,&quot;Name&quot;:&quot;Oncology&quot;,&quot;NameArabic&quot;:&quot;اورام&quot;,&quot;NameConcat&quot;:&quot;اورام - Oncology&quot;,&quot;ImageUrl&quot;:&quot;oncology.png&quot;,&quot;FriendlyName&quot;:&quot;Tumor&quot;,&quot;SearchedCount&quot;:1246,&quot;DisplayOrder&quot;:3087,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور اورام&quot;,&quot;PreferredName&quot;:&quot;Oncologist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3082,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Oncology&quot;,&quot;UrlNameArabic&quot;:&quot;الاورام,علاج-الأورام,اورام&quot;,&quot;SpecialityKey&quot;:&quot;spec00000023EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:94,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:94,&quot;Name&quot;:&quot;Ophthalmology&quot;,&quot;NameArabic&quot;:&quot;عيون&quot;,&quot;NameConcat&quot;:&quot;عيون - Ophthalmology&quot;,&quot;ImageUrl&quot;:&quot;general.png&quot;,&quot;FriendlyName&quot;:&quot;Eyes&quot;,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:3094,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور عيون&quot;,&quot;PreferredName&quot;:&quot;Opthalmology&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3086,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Ophthalmology&quot;,&quot;UrlNameArabic&quot;:&quot;العيون,عيون&quot;,&quot;SpecialityKey&quot;:&quot;spec00000094EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:26,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:26,&quot;Name&quot;:&quot;Orthopedics&quot;,&quot;NameArabic&quot;:&quot;عظام&quot;,&quot;NameConcat&quot;:&quot;عظام - Orthopedics&quot;,&quot;ImageUrl&quot;:&quot;orthopedics.png&quot;,&quot;FriendlyName&quot;:&quot;Bones&quot;,&quot;SearchedCount&quot;:3006,&quot;DisplayOrder&quot;:3105,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور عظام&quot;,&quot;PreferredName&quot;:&quot;Orthopedist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:80,&quot;MostSearchedByDisplayOrder&quot;:92,&quot;MostSearchedByArabicDisplayOrder&quot;:92,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Orthopedic-Surgery,Orthopedics&quot;,&quot;UrlNameArabic&quot;:&quot;جراحة-العظام,العظام,عظام&quot;,&quot;SpecialityKey&quot;:&quot;spec00000026EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:59,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:59,&quot;Name&quot;:&quot;Pain Management&quot;,&quot;NameArabic&quot;:&quot;علاج الآلام&quot;,&quot;NameConcat&quot;:&quot;علاج الآلام - Pain Management&quot;,&quot;ImageUrl&quot;:&quot;general.png&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:16,&quot;DisplayOrder&quot;:1,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور علاج الالام&quot;,&quot;PreferredName&quot;:&quot;Anesthesiologist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:1,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Anesthesiology,Pain-Management&quot;,&quot;UrlNameArabic&quot;:&quot;التخدير,علاج-الالام&quot;,&quot;SpecialityKey&quot;:&quot;spec00000059EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:206,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:206,&quot;Name&quot;:&quot;Pediatric Surgery&quot;,&quot;NameArabic&quot;:&quot;جراحة اطفال&quot;,&quot;NameConcat&quot;:&quot;جراحة اطفال - Pediatric Surgery&quot;,&quot;ImageUrl&quot;:&quot;&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:994,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور جراحة اطفال&quot;,&quot;PreferredName&quot;:&quot;Pediatric Surgery&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:994,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Pediatric-Surgery&quot;,&quot;UrlNameArabic&quot;:&quot;جراحة-اطفال&quot;,&quot;SpecialityKey&quot;:&quot;spec00000206EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:30,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:30,&quot;Name&quot;:&quot;Pediatrics and New Born&quot;,&quot;NameArabic&quot;:&quot;اطفال و حديثي الولادة&quot;,&quot;NameConcat&quot;:&quot;اطفال و حديثي الولادة - Pediatrics and New Born&quot;,&quot;ImageUrl&quot;:&quot;pediatrics.png&quot;,&quot;FriendlyName&quot;:&quot;Child&quot;,&quot;SearchedCount&quot;:11549,&quot;DisplayOrder&quot;:3107,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور اطفال و حديثي الولادة&quot;,&quot;PreferredName&quot;:&quot;Pediatrician&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3100,&quot;MostSearchedByDisplayOrder&quot;:97,&quot;MostSearchedByArabicDisplayOrder&quot;:97,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Pediatrics-and-New-Born&quot;,&quot;UrlNameArabic&quot;:&quot;الاطفال,اطفال-و-حديثي-الولادة&quot;,&quot;SpecialityKey&quot;:&quot;spec00000030EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:61,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:61,&quot;Name&quot;:&quot;Phoniatrics&quot;,&quot;NameArabic&quot;:&quot;نطق و تخاطب&quot;,&quot;NameConcat&quot;:&quot;نطق و تخاطب - Phoniatrics&quot;,&quot;ImageUrl&quot;:&quot;general.png&quot;,&quot;FriendlyName&quot;:&quot;Speech&quot;,&quot;SearchedCount&quot;:73,&quot;DisplayOrder&quot;:47,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور نطق و تخاطب&quot;,&quot;PreferredName&quot;:&quot;Phoniatrician&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:97,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Phoniatrics&quot;,&quot;UrlNameArabic&quot;:&quot;اضطرابات-النطق-,النطق-و-التخاطب,نطق-و-تخاطب&quot;,&quot;SpecialityKey&quot;:&quot;spec00000061EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:96,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:96,&quot;Name&quot;:&quot;Physiotherapy and Sport Injuries&quot;,&quot;NameArabic&quot;:&quot;علاج طبيعي و اصابات ملاعب&quot;,&quot;NameConcat&quot;:&quot;علاج طبيعي و اصابات ملاعب - Physiotherapy and Sport Injuries&quot;,&quot;ImageUrl&quot;:&quot;general.png&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:3088,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور علاج طبيعي و اصابات ملاعب&quot;,&quot;PreferredName&quot;:&quot;Physiotherapy and Sport Injuries&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3070,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Physiotherapy-and-Sport-Injuries&quot;,&quot;UrlNameArabic&quot;:&quot;العلاج-الطبيعي-والطب-التقويميعلاج-طبيعي-و-اصابات-الملاعب,العلاج-الطبيعي-والطب-التقويمي,علاج-طبيعي-و-اصابات-الملاعب,علاج-طبيعي-و-اصابات-ملاعب&quot;,&quot;SpecialityKey&quot;:&quot;spec00000096EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:101,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:101,&quot;Name&quot;:&quot;Plastic Surgery&quot;,&quot;NameArabic&quot;:&quot;جراحة تجميل&quot;,&quot;NameConcat&quot;:&quot;جراحة تجميل - Plastic Surgery&quot;,&quot;ImageUrl&quot;:&quot;dermatology.png&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:3089,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور جراحة تجميل&quot;,&quot;PreferredName&quot;:&quot;Plastic Surgery&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3083,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Cosmetic-Dermatology,Plastic-Surgery&quot;,&quot;UrlNameArabic&quot;:&quot;تجميل,تجميل-وليزر,جراحات-التجميل,جراحة-تجميل&quot;,&quot;SpecialityKey&quot;:&quot;spec00000101EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:32,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:32,&quot;Name&quot;:&quot;Psychiatry&quot;,&quot;NameArabic&quot;:&quot;نفسي&quot;,&quot;NameConcat&quot;:&quot;نفسي - Psychiatry&quot;,&quot;ImageUrl&quot;:&quot;psychiatry.png&quot;,&quot;FriendlyName&quot;:&quot;Mental, Emotional or Behavioral Disorders&quot;,&quot;SearchedCount&quot;:2317,&quot;DisplayOrder&quot;:3108,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور نفسي&quot;,&quot;PreferredName&quot;:&quot;Psychiatrist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3076,&quot;MostSearchedByDisplayOrder&quot;:90,&quot;MostSearchedByArabicDisplayOrder&quot;:90,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Psychiatry&quot;,&quot;UrlNameArabic&quot;:&quot;النفسية,نفسي&quot;,&quot;SpecialityKey&quot;:&quot;spec00000032EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:28,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:28,&quot;Name&quot;:&quot;Rheumatology&quot;,&quot;NameArabic&quot;:&quot;روماتيزم&quot;,&quot;NameConcat&quot;:&quot;روماتيزم - Rheumatology&quot;,&quot;ImageUrl&quot;:&quot;orthopedics.png&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:158,&quot;DisplayOrder&quot;:39,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور روماتيزم&quot;,&quot;PreferredName&quot;:&quot;Rheumatologist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:82,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Rheumatology&quot;,&quot;UrlNameArabic&quot;:&quot;الروماتيزم,روماتيزم&quot;,&quot;SpecialityKey&quot;:&quot;spec00000028EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:207,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:207,&quot;Name&quot;:&quot;Spinal Surgery&quot;,&quot;NameArabic&quot;:&quot;جراحة عمود فقري&quot;,&quot;NameConcat&quot;:&quot;جراحة عمود فقري - Spinal Surgery&quot;,&quot;ImageUrl&quot;:&quot;&quot;,&quot;FriendlyName&quot;:null,&quot;SearchedCount&quot;:0,&quot;DisplayOrder&quot;:993,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;جراحة عمود فقري&quot;,&quot;PreferredName&quot;:&quot;Spinal Surgery&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:993,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Spinal-Surgery&quot;,&quot;UrlNameArabic&quot;:&quot;جراحة-عمود-فقري&quot;,&quot;SpecialityKey&quot;:&quot;spec00000207EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:35,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:35,&quot;Name&quot;:&quot;Urology&quot;,&quot;NameArabic&quot;:&quot;مسالك بولية&quot;,&quot;NameConcat&quot;:&quot;مسالك بولية - Urology&quot;,&quot;ImageUrl&quot;:&quot;urology.png&quot;,&quot;FriendlyName&quot;:&quot;Urinary System&quot;,&quot;SearchedCount&quot;:257,&quot;DisplayOrder&quot;:3092,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور مسالك بولية&quot;,&quot;PreferredName&quot;:&quot;Urologist&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:3080,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Urology&quot;,&quot;UrlNameArabic&quot;:&quot;المسالك-البولية,مسالك-بولية&quot;,&quot;SpecialityKey&quot;:&quot;spec00000035EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1},{&quot;CountrySpecialityId&quot;:3,&quot;CountryId&quot;:1,&quot;SpecialityId&quot;:3,&quot;Name&quot;:&quot;Vascular Surgery&quot;,&quot;NameArabic&quot;:&quot;جراحة اوعية دموية&quot;,&quot;NameConcat&quot;:&quot;جراحة اوعية دموية - Vascular Surgery&quot;,&quot;ImageUrl&quot;:&quot;cardiology.png&quot;,&quot;FriendlyName&quot;:&quot;Arteries and Vein Surgery&quot;,&quot;SearchedCount&quot;:260,&quot;DisplayOrder&quot;:34,&quot;RelatedSpecialtyId&quot;:null,&quot;RelatedSpecialtyOrder&quot;:null,&quot;PreferredArabicName&quot;:&quot;دكتور جراحة اوعية دموية&quot;,&quot;PreferredName&quot;:&quot;Vascular surgeon&quot;,&quot;ParentId&quot;:null,&quot;ArabicDisplayOrder&quot;:50,&quot;MostSearchedByDisplayOrder&quot;:0,&quot;MostSearchedByArabicDisplayOrder&quot;:0,&quot;ApplicationTypeId&quot;:null,&quot;UrlName&quot;:&quot;Vascular-surgery,Vascular-Surgery&quot;,&quot;UrlNameArabic&quot;:&quot;جراحة-اوعية-دموية,جراحات-الاوعية-الدموية,جراحة-اوعية-دموية&quot;,&quot;SpecialityKey&quot;:&quot;spec00000003EG&quot;,&quot;SpecialtyPricingGroupId&quot;:1}]';
+    var myArray = JSON.parse(specialtiesList.replace(/&quot;/g, '"'));
+
+    function ChangeSpeciality() {
+        //$('#CountrySpecialityId').val($('#SpecialityId').select2("val"));
+        
+        for (var i = 0; i < myArray.length; i++)
+        {
+            if (myArray[i].CountrySpecialityId == $('#SpecialityId').select2("val")
+                && myArray[i].SpecialtyPricingGroupId != currentSpecialtyPricingGroup)
+            {
+                ReloadProductLines($('#SpecialityId').select2("val"));
+                currentSpecialtyPricingGroup = myArray[i].SpecialtyPricingGroupId;
+            }
+        }
+
+        if ($('#SpecialityId').select2("val") == "")
+        {
+            specialityValidation = false;
+            $('#specId').show();
+            MainSpecialityChanged(false);
+        } else
+        {
+            specialityValidation = true;
+            $('#specId').hide();
+            MainSpecialityChanged(true);
+        }
+    }
+
+
+    $('.dropDownSecondSpeciality').select2({
+        //dropdownAutoWidth: true,
+    }).on('change', function (e)
+    {
+        var selectedValue = $('#SecondSpecialityId').select2("val");
+        var multiSpecialitySelected = $('#MultiSecondSpecialityId').select2("val");
+        if ($.inArray(selectedValue, multiSpecialitySelected) == -1 && selectedValue != "")
+        {
+            multiSpecialitySelected.push(selectedValue);
+            $('.dropDownMulti').select2("val", multiSpecialitySelected);
+        }
+
+        if (selectedValue == "")
+        {
+            multiSpecialitySelected.length = 0;
+            $('.dropDownMulti').select2("val", multiSpecialitySelected);
+            $('#secondSpecDivM').hide();
+        } else
+        {
+            $('#secondSpecDivM').show();
+        }
+        if (ValidateSecSpeciality())
+        {
+            $('#secSpecReq').hide();
+        } else
+        {
+            $('#secSpecReq').show();
+        }
+    });
+
+    $('#MultiSecondSpecialityId').select2();
+
+    function MainSpecialityChanged(hasValue)
+    {
+        var secondSpecMarkup = "<option value='' >Choose Your Sub Speciality</option>";
+        $('#secondSpecDivM').hide();
+        if (hasValue)
+        {
+            $.ajax({
+                url: '/en/Account/GetCountrySubSpecialties',
+                type: 'POST',
+                data: { specId: $('#SpecialityId').select2("val") },
+                success: function (results)
+                {
+                    if (results == null || results == "")
+                    {
+                        $('#secondSpecDiv').hide();
+                        secondSpecialityRequired = false;
+                    } else
+                    {
+                        $('#secondSpecDiv').show();
+                        secondSpecialityRequired = true;
+                        for (var x = 0; x < results.length; x++)
+                        {
+                            secondSpecMarkup += "<option value=" + results[x].Value + ">" + results[x].Text + "</option>";
+                        }
+                        $("#SecondSpecialityId").html(secondSpecMarkup);
+                        $("#SecondSpecialityId").select2();
+                        $("#MultiSecondSpecialityId").html(secondSpecMarkup);
+                        $("#MultiSecondSpecialityId").select2().on('select2-opening', function (e)
+                        {
+                            e.preventDefault();
+                        });
+                    }
+                },
+                error: function (xhr) { alert("Something seems Wrong"); }
+            });
+        } else
+        {
+            $("#SecondSpecialityId").html("");
+            $("#MultiSecondSpecialityId").html("");
+            $('#secondSpecDiv').hide();
+        }
+    }
+
+    function checkSecondaryAccount()
+    {
+        if ($('input[name="AccountType"]:checked').val() == 2 &&
+          ($("#SecondaryAccountName").val() == "" || !isValidEmailAddress($("#SecondaryAccountName").val())
+            || $("#SecondaryAccountPassword").val() == "" || $("#SecondaryAccountPassword").val().length < 6))
+        {
+            $("#emptySecondaryAccount").show();
+        } else
+        {
+            $("#emptySecondaryAccount").hide();
+        }
+    }
+
+    function checkPassword()
+    {
+        var password = $("#Password").val();
+
+        if (password == "" || password.length < 6)
+        {
+            $("#pwdreqir").show();
+        }
+        else
+        {
+            $("#pwdreqir").hide();
+        }
+    }
+
+    function checkPasswordMatch()
+    {
+        var password = $("#Password").val();
+        var confirmPassword = $("#ConfirmPassword").val();
+
+        if (password != confirmPassword)
+        {
+            //$("#ConfirmPassword").addClass("input-validation-error2");
+            $("#CheckPasswordMatch").show();
+        }
+        else
+        {
+            //$("#ConfirmPassword").removeClass("input-validation-error2");
+            $("#CheckPasswordMatch").hide();
+        }
+    }
+
+    function ValidateSecSpeciality()
+    {
+        if (secondSpecialityRequired)
+        {
+            if ($('#MultiSecondSpecialityId').select2('val') == '')
+            {
+                return false;
+            }
+            return true;
+        } else
+        {
+            return true;
+        }
+    }
+
+
+    $('#SignUpButton').click(function () {
+        
+        validateProductLine();
+        validateEmail();
+        validateMobile();
+        checkPassword();
+        checkSecondaryAccount();
+
+        var secSpecialityValid = ValidateSecSpeciality();
+        var senderName = validateTextLength("#SenderName", "#emptySenderName");
+        var password = $("#Password").val();
+        var confirmPassword = $("#ConfirmPassword").val();
+        var flag = 0;
+        var fullnameflag = 1;
+
+        if (password != confirmPassword)
+        {
+            //$("#ConfirmPassword").addClass("input-validation-error2");
+            $("#CheckPasswordMatch").show();
+        } else
+        {
+            flag = 1;
+        }
+
+        var areadd = $('#s2id_AreaId a span:first-child').text();
+        if (areadd == "اختار منطقه" || areadd == "Choose Area")
+        {
+            $('#invalidArea').removeClass("hidden");
+            $('#invalidArea').show();
+        } else
+        {
+            $('#invalidArea').hide();
+        }
+
+        if ($("#FullName").val().length < 5 || $("#FullName").val() == "")
+        {
+            $("#lessthan").show();
+            $("#FullName").focus();
+            //$("#FullName").addClass('input-validation-error2');
+            fullnameflag = 0;
+        } else
+        {
+            $("#lessthan").hide();
+            //$("#FullName").removeClass('input-validation-error2');
+        }
+        if (!specialityValidation)
+        {
+            $('#specId').show();
+        } else
+        {
+            $('#specId').hide();
+        }
+        if ($('#fileSelected').val() == "")
+        {
+            $('#ppr').show();
+        } else
+        {
+            $('#ppr').hide();
+        }
+        if ($('#fileSelected').val() != "" && $('#professionPracticing').val() != "")
+        {
+            profPractice = true;
+        } else
+        {
+            $('#ppr').show();
+        }
+
+        if (secSpecialityValid)
+        {
+            $('#secSpecReq').hide();
+        } else
+        {
+            $('#secSpecReq').show();
+        }
+
+        var secondaryAccountSuccess =
+        ($('input[name="AccountType"]:checked').val() == 1 || ($("#SecondaryAccountName").val() != "" && $("#SecondaryAccountPassword").val() != ""));
+
+        if ($('#MobileNumber').val() != "" && isValidMobile($('#MobileNumber').val()) && password != "" && password.length > 5 &&
+            $('#EmailAddress').val() != "" && isValidEmailAddress($('#EmailAddress').val()) && $('#FullName').val() != "" &&
+            $("#SenderName").val() != "" && specialityValidation && profPractice && secSpecialityValid && secondaryAccountSuccess && ValidateImage())
+        {
+
+            if (areadd == "اختار منطقه" || areadd == "Choose Area")
+            {
+                $('#invalidArea').removeClass("hidden");
+                $('#invalidArea').show();
+            } else
+            {
+                if (flag == 1 && fullnameflag == 1 && (productLineCount > 0 || $('input[name="AccountBookingTypeId"]:checked').val() == 2) && senderName == true)
+                {
+                    $('#SignUpButton').attr("disabled", "disabled");
+                    $('#SignUpButton').removeClass("btn-2rd btn-2erd");
+                    $('#SignUpButton').addClass("btn-2gr btn-2egr");
+                    $('#SignUpButton').css("width", "200px");
+                    $('#SignUpButton').html("Creating Account");
+                    $('#SignUpButton').css("cursor", "wait");
+                    $('body').css("cursor", "wait");
+                    $("html, body").animate({ scrollTop: "10px" });
+                    $('.RunPtsImg').removeClass("hidden");
+                    $('body').addClass("disabled");
+                    $('#signupmainrow').css("opacity", 0.2);
+                    $('.spinner').remove();
+                    //$('form').submit();
+                    document.createAccountForm.submit();
+
+                } else
+                {
+                    if (flag == 0)
+                    {
+                        //$("#ConfirmPassword").addClass("input-validation-error2");
+                        $("#CheckPasswordMatch").show();
+                    }
+                }
+
+            }
+
+        } else
+        {
+
+            if ($('#MobileNumber').val() != "" && isValidMobile($('#MobileNumber').val()) && password != "" && password.length > 5 &&
+            $('#EmailAddress').val() != "" && isValidEmailAddress($('#EmailAddress').val()) && $('#FullName').val() != "" &&
+                (productLineCount > 0 || $('input[name="AccountBookingTypeId"]:checked').val() == 2) && fullnameflag == 1 && specialityValidation && secSpecialityValid && profPractice &&
+                (senderName || $("#SenderNameSection").hasClass("hidden")) && secondaryAccountSuccess && ValidateImage())
+            {
+                $("html, body").animate({ scrollTop: "10px" });
+                $('.RunPtsImg').removeClass("hidden");
+                $('body').addClass("disabled");
+                $('#signupmainrow').css("opacity", 0.2);
+                $('form').submit();
+            }
+        }
+    });
+
+    $("#EmailAddress").on('input', function (e)
+    {
+        $('#emlreqir').hide();
+    });
+
+    $("#MobileNumber").on('input', function (e)
+    {
+        $('#mblreqir').hide();
+    });
+
+    function validateEmail()
+    {
+        if ($("#EmailAddress").siblings("span").hasClass("field-validation-error") ||
+            isValidEmailAddress($('#EmailAddress').val()) || $('#EmailAddress').val() != "")
+        {
+            $('#emlreqir').hide();
+            //$("#EmailAddress").removeClass("input-validation-error2");
+        }
+        else
+        {
+            $('#emlreqir').show();
+            // $("#EmailAddress").addClass("input-validation-error2");
+        }
+
+
+    }
+
+    function validateMobile()
+    {
+        if ($("#MobileNumber").siblings("span").hasClass("field-validation-error") ||
+            isValidMobile($('#MobileNumber').val()) || $('#MobileNumber').val() != "")
+        {
+            $('#mblreqir').hide();
+            //$("#MobileNumber").removeClass("input-validation-error2");
+        }
+        else
+        {
+            $('#mblreqir').show();
+            //$("#MobileNumber").addClass("input-validation-error2");
+        }
+    }
+
+    function isValidEmailAddress(emailAddress)
+    {
+        var pattern = new RegExp(/^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?$/i);
+        return pattern.test(emailAddress);
+    };
+
+    function isValidMobile(mobileNumber) {
+        
+        var pattern = new RegExp(/^[0-9]{8,20}$/);
+
+        //var pattern = new RegExp(/^(\d*(\d)\d*){8,}/);
+        return pattern.test(mobileNumber);
+    };
+
+
+    $("#professionPracticing").change(function ()
+    {
+        $("#fileSelected").val("yes");
+        $('#ppr').hide();
+        ValidateImage();
+    });
+
+    $('#edit2').click(function ()
+    {
+        $('#professionPracticing').show();
+        $('#Fn').hide();
+        $('#fileSelected').val("");
+        $('#professionPracticing').val("");
+        $('#edit2').hide();
+        profPractice = false;
+    });
+
+    $('input[name="AccountType"]').change(function ()
+    {
+        validateSecondaryAccount(this);
+
+        if ($('input[name="AccountType"]:checked').val() == 1)
+        {
+            $("#emptySecondaryAccount").hide();
+        }
+    });
+
+    function validateSecondaryAccount(element)
+    {
+        var accountDesc = 'Choose secondary if you have another Vezeeta account';
+        if ($(element).val() == 2)
+        {
+            $('#secondary-account').css("display", "block");
+            $('.account-type-desc').text('Enter your Vezeeta account information');
+        } else
+        {
+            $('#secondary-account').css("display", "none");
+            $('#SecondaryAccountName').val('');
+            $('#SecondaryAccountPassword').val('');
+            $('.account-type-desc').text(accountDesc);
+        }
+    }
+
+    function ValidateImage()
+    {
+        var validFileExtensions = [".jpg", ".jpeg", ".bmp", ".png"];
+        var oInput = $('#professionPracticing');
+
+        var sFileName = oInput.val();
+        if (sFileName.length > 0)
+        {
+            var blnValid = false;
+            for (var j = 0; j < validFileExtensions.length; j++)
+            {
+                var sCurExtension = validFileExtensions[j];
+                if (sFileName.substr(sFileName.length - sCurExtension.length, sCurExtension.length).toLowerCase() == sCurExtension.toLowerCase())
+                {
+                    blnValid = true;
+                    $('#invalidFileFormat').hide();
+                    return true;
+                }
+            }
+
+            if (!blnValid)
+            {
+                $('#invalidFileFormat').show();
+                return false;
+            }
+        }
+    }
+
+    //In SignUp Page, if Home Visit, hide Product Line view and uncheck other product line check box
+    $('input[name="AccountBookingTypeId"]').change(function ()
+    {
+
+        if ($('input[name="AccountBookingTypeId"]:checked').val() == 2)
+        {
+            //$('#productlinesmaindiv input[type=checkbox]').siblings("a").removeClass("checked");
+            //$('#ProductGroups input[type=radio]').siblings("a").removeClass("checked");
+
+            $("#SenderName").val("Vezeeta.com");
+            $("#SenderName").prop('disabled', true);
+            $("#emptySenderName").hide();
+
+            $("#productlinesmaindiv").hide();
+            
+        }
+        else if ($('input[name="AccountBookingTypeId"]:checked').val() == 1)
+            $("#productlinesmaindiv").show();
+    });
+
+
+</script>
+
+
+	
+	<script>
+	(function(i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] ||
+			function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+		a = s.createElement(o),
+			m = s.getElementsByTagName(o)[0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a, m)
+	})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+	ga('create', 'UA-85540930-1', 'auto');
+	ga('send', 'pageview');
+	var email = '';
+	if (email !== null)
+	{
+		ga('set', 'userId', email);
+	}
+
+</script>
+	
+
+</body>
+
+<footer class="geryBack mCenter">
+    <div class="container footerwrapper">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12"><hr />
+                <ul class="menu menuBorder clearfix ">
+                    <li><a href="/en/Generic/AboutUs" title="About Us">About Us</a></li>
+                    <li><a href="/en/Generic/OurTeam" title="Our Team">Our Team</a></li>
+                    <li><a href="/en/Generic/PressCenter" title="Press Center">Press Center</a></li>
+                    <li><a href="http://blog.vezeeta.com" target="_blank" title="Vezeeta Blog">Vezeeta Blog</a></li>
+                    <li><a href="/en/Generic/TermsAndConditions" title="Terms Of Use">Terms Of Use</a></li>
+                    <li><a href="/en/Generic/ContactUs" title="Contact Us">Contact Us</a></li>
+                </ul>
+            </div>
+
+		</div>
+	</div>
+</footer>
+
+
+<style>
+    .select2-results .select2-highlighted {
+        background: none repeat scroll 0 0 #c71b2c;
+    }
+
+    .select2-drop-active {
+        border-color: -moz-use-text-color #c71b2c #c71b2c;
+    }
+
+    .form-control:focus {
+        border-color: #c71b2c;
+    }
+
+    /*.select2-container .select2-choice {
+            border: 1px solid #fca033;
+        }*/
+
+    #s2id_insurancesselect .select2-choice {
+        background: url("/Assets/Images/insurance.png") no-repeat scroll 5px 5px #fff;
+    }
+
+    .sign-button {
+        color: #fff !important;
+        border-color: #fff !important;
+        background-color: rgba(255,255,255,0) !important;
+    }
+
+        .sign-button:hover {
+            color: #c71b2c !important;
+            border-color: #ccc !important;
+            background-color: #fff !important;
+        }
+
+    .logodiv-margin {
+        padding-bottom: 18px;
+    }
+
+    .menu li {
+        padding-right: 15px;
+        font-size: 16px;
+    }
+
+</style>
+<style>
+    @media (max-width: 359px) {
+        .headernavArabic a {
+            font-size: 19px !important;
+        }
+
+        #menu_hdr {
+            margin-right: 30px !important;
+        }
+
+        .ppn2 {
+            padding-right: 30px !important;
+        }
+
+        #logo {
+            margin-top: 10px !important;
+        }
+
+        .headermenu {
+            margin-top: 10px;
+        }
+
+        .footerwrapper {
+            width: 100% !important;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .ppn {
+            text-align: left !important;
+            vertical-align: top;
+        }
+
+        #menu_hdr {
+            margin-right: 30px !important;
+        }
+
+        .ppn2 {
+            padding-right: 30px !important;
+        }
+
+        #logodiv {
+            margin-top: 0px !important;
+        }
+
+        .headermenu {
+            margin-top: 10px;
+        }
+
+        .footerwrapper {
+            width: 100% !important;
+        }
+    }
+
+
+</style>
+
+    
+	
+
+    
+
+
+	
+
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var google_conversion_id = 983341641;
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <script src="/Assets/js/vendor/jquery.dotdotdot.min.js"></script>
+
+    <noscript>
+        <div style="display:inline;">
+            <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/983341641/?value=0&amp;guid=ON&amp;script=0" />
+        </div>
+    </noscript>
+    <script>
+        $(document).ready(function () {
+            $('input[type=checkbox]').each(function () {
+                $(this).prettyCheckable();
+            });
+            $('input[type=radio]').each(function () {
+                $(this).prettyCheckable();
+            });
+            
+        });
+    </script>
+</body>
+</html>

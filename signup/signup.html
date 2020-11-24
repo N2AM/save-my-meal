@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+
+<html dir="ltr" style="">
+    <head>
+        <title>medical appoint-sign up</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="index, follow" />
+        <meta name="msapplication-navbutton-color" content="#0070cd">
+        <meta name="apple-mobile-web-app-status-bar-style" content="#0070cd">
+        <meta name="google" value="notranslate" />
+       
+        
+        <link rel="stylesheet" href="css/bootstrap.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/droidarabickufi.css">
+        
+        <link rel="stylesheet" href="css/bootstrap.css">
+         <link rel="stylesheet" href="css/newcss.css">
+        
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/droid-arabic-kufi" type="text/css"/>
+        
+   
+    </head>
+    
+    <body>
+  
+        <div class="container-fluid">
+                  <div class="row"  >
+            <!--start header-->
+            <header class="header">
+       
+                <div class="row"  >
+                    <div id="menuDev" class="col-xs-12 col-sm-7 headerLang hdr-res2">
+                        <div class="ppn ppn2 pull-left">
+			<a href="#" style="height: auto !important; padding: 0; margin: 0;" title="Home">
+			<img src="img/logo.png" class="img-log" alt="logo" style="">
+			</a>
+			</div>
+                    </div> 
+                    <div class="col-xs-12 col-sm-5 pull-left headermenu nopadding">
+			<div class="col-xs-12 headerLeft headernavArabic hdr-res white bluetext nopadding" style="margin-top: 10px; -moz-transform: scale(0.80);    font-size: large;    font-weight: 600;">
+				<div class="ppn pull-right">
+                                
+                                   <a id="sign" style="" class="signuptext bluetext fs-12" onclick="mixPanelUtil.SignupLink()" title="Sign Up" href="/">تسجيل</a>
+                 
+                                   <span class="spn bluetext">|</span>
+                                  <a href="#" class=" bluetext fs-12" title="Login">دخول</a>
+                                 <span class="spn bluetext">|</span>
+                                 <a href="#" class="bluetext">تواصل معنا</a>
+                                 <span class="spn bluetext">|</span>
+
+
+
+
+      
+         </div>
+              </div>
+                    </div>
+                </div>
+                <div class="clearfix h10"></div>
+            </header>
+             
+             
+            
+            <!--end header-->
+         
+           <div class="container-fluid">
+               <div style="    direction: rtl;" class="row">
+                   <ol class="progtrckr hidden-xs" data-progtrckr-steps="3" style="margin-right: 13px; margin-left: 13px;    text-align: center;">
+            <li style="width: 35%;" class="progtrckr-inprogress">دخول</li>
+            <li style="width: 32%;" class="progtrckr-todo">تفاصيل</li>
+            <li style="width: 32%;" class="progtrckr-todo">تحميل تطبيق مواعيد طبية</li>
+        </ol>
+               </div>
+               <div id="doctorsOnlySection" class="bluetitle economica col-sm-8 col-md-7">
+            <div class="paddingleftright40">
+                 <span>
+                هذه صفحة لتسجيل الاطباء.اذا كنت تقوم بتسجيل الدخول للحصول علي موعد مع طبيب   من فضلك 
+                
+                 </span>
+                <a style="    text-decoration: underline;font-size: large" id="doctorsOnlyLink" class="bluetext" href="#">اضغط هنا</a>
+            </div>
+        </div>
+            </div>
+            
+            
+            <div style="padding-top: 30px;    color: #005cb8;" class="container">
+            
+           <div  class="col-sm-8 col-md-7 col-xs-12" style="height: 780px;border: solid 1px #808184;float: right;    ">
+               <div  id="signUpDiv" class=" mCenter form-outer form-padding paddingleftright40">
+                   <div class="form-group">
+                        <label  style="line-height: 3;" class="col-sm-8 bluetitle economica fs-24">سجل مواعيد طبية الان</label>
+                    </div> 
+               </div>
+             
+               
+               
+               <form  class="form-horizontal signupForm" enctype="multipart/form-data" method="post" name="createAccountForm" novalidate="novalidate">
+                    
+               
+      <div class="form-group">
+              
+               <div style="    width: 75%;" class="col-sm-8  col-xs-8">
+                <input class="form-control" id="FullName" maxlength="60" name="FullName" onkeypress="validateName(event)" onkeyup="ValidateNameLength(event)" type="text" value="">
+        
+                <span class="red" id="lessthan" hidden="hidden">برجاء ادخل الاسم كامل </span>
+              </div>
+           <label style="float: right;" class="col-sm-3 col-xs-3 control-label bluetext">الاسم <sup>*</sup></label>
+                        
+      </div>
+                    <div class="form-group">
+                   <div style="    width: 75%;" class="col-sm-8  col-xs-8">  
+                   
+                      <input class="form-control" data-val="true" data-val-regex="Mobile Number is incorrect" data-val-regex-pattern="^[0-9]{8,20}$" data-val-required="Please enter your mobile number" id="MobileNumber" name="MobileNumber" type="text" value=""> 
+                  
+                   </div>
+                    <label class="col-sm-3 col-xs-3 control-label bluetext">الهاتف <sup>*</sup></label>
+                    </div>
+              
+                   <div class="form-group">
+                       <div style="width: 75%" class="col-sm-8 col-xs-8" >
+                           <input class="form-control" data-val="true" data-val-regex="Email Address is incorrect" data-val-regex-pattern="^(([\w-]+\.)+[\w-]+|([a-zA-Z]{1}|[\w-]{2,}))@((([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\.([0-1]?
+				                                       [0-9]{1,2}|25[0-5]|2[0-4][0-9])\.([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\.([0-1]?
+				                                       [0-9]{1,2}|25[0-5]|2[0-4][0-9])){1}|([a-zA-Z]+[\w-]+\.)+[a-zA-Z]{2,4}[' ']{0,5})$" data-val-required="Please enter your email address" id="EmailAddress" name="EmailAddress" type="text" value="">
+                       </div>
+                        <label class="col-sm-3 col-xs-3 control-label bluetext">ايميل <sup>*</sup></label>
+                   </div>
+                   
+                   <div class="form-group">
+                        <div style="width: 75%" class="col-sm-8 col-xs-8" >
+                      
+                            <select style="width:75%" class="col-sm-8 col-xs-8" >
+                              <option>القاهرة</option>
+                              <option>الجيزة</option>
+                              <option>الاسكندرية</option>
+                                <option>الاسكندرية</option>
+                                
+                            </select>
+   
+                       
+                   
+                   </div>
+                        <label class="col-sm-3 col-xs-3 control-label bluetext">مدينة<sup>*</sup></label>
+                   </div>
+                   
+                   <div class="form-group">
+                       <div style="width: 75%" class="col-sm-8 col-xs-8" >
+                           <select  style="width:75%" class="col-sm-8 col-xs-8">
+                      <option>اختار المنطقة</option>
+                              <option>الجيزة</option>
+                              <option>الاسكندرية</option>
+                                <option>الاسكندرية</option>
+                                
+                            </select>
+                           
+                       </div> 
+                         <label class="col-sm-3 col-xs-3 control-label bluetext">منطقة<sup>*</sup></label>
+                   </div>
+                   
+                   <div class="form-group">
+                       <div style="width: 75%" class="col-sm-8 col-xs-8" >
+                            <select  style="width:75%" class="col-sm-8 col-xs-8">
+                             <option>اختار  التخصص</option>
+                              <option>جراحة</option>
+                              <option>عيون</option>
+                                <option>انف</option>
+                                
+                            </select>
+                      
+                       </div>
+                         <label class="col-sm-3 col-xs-3 control-label bluetext">تخصص<sup>*</sup></label>
+                   </div>
+                   
+                   <div class="form-group">
+                       <div style="width: 75%" class="col-sm-8 col-xs-8" >
+                           
+                           <div style="    text-align: center;border: solid 1px #ccc;" class="col-sm-12 col-xs-12 radio-btn">
+
+                       
+
+                           <ul class="prettyradio" >
+                                 <li>
+                                 <input type="radio" id="f-option" name="selector">
+                                 <label for="f-option">منزل</label>
+    
+                                 <div class="col-sm-3 col-xs-3 check"></div>
+                                 
+                                </li>
+                             
+   
+                         </ul>
+
+                           <ul class="prettyradio" >
+                                 <li>
+                                 <input type="radio"id="s-option" name="selector">
+                                 <label for="s-option">عيادة</label>
+    
+                                 <div class="col-sm-3 col-xs-3 check"></div>
+                                 
+                                </li>
+                             
+   
+                         </ul>
+                          </div>
+                     </div>
+                          <label  class="col-sm-3 col-xs-3 control-label bluetext">نوع  الحجز<sup>*</sup></label>
+
+
+                    
+                   </div>
+             
+                    <div class="form-group">
+                       <div style="width: 75%" class="col-sm-8 col-xs-8" >
+                           
+                           <div style="    text-align: center;border: solid 1px #ccc;" class="col-sm-12 col-xs-12 radio-btn">
+
+                       
+
+                           <ul class="prettyradio" >
+                                 <li>
+                                 <input type="radio" id="k-option" name="selector2">
+                                 <label for="k-option">كاش</label>
+    
+                                 <div class="col-sm-3 col-xs-3 check"></div>
+                                 
+                                </li>
+                             
+   
+                         </ul>
+
+                           <ul class="prettyradio" >
+                                 <li>
+                                 <input type="radio" id="p-option" name="selector2">
+                                 
+                                 <label for="p-option">كارت</label>
+    
+                                 <div class="col-sm-3 col-xs-3 check"></div>
+                                 
+                                </li>
+                             
+   
+                         </ul>
+                          </div>
+                     </div>
+                          <label  class="col-sm-3 col-xs-3 control-label bluetext">طريقة الدفع<sup>*</sup></label>
+
+
+                    
+                   </div>
+             
+                <div class="form-group">
+                       <div style="width: 75%" class="col-sm-8 col-xs-8" >
+                           
+                          <div style="    text-align: center;border: solid 1px #ccc;" class="col-sm-12 col-xs-12 radio-btn">
+
+                       
+
+                           <ul class="prettyradio" >
+                                 <li>
+                                 <input type="radio" id="w-option" name="selector3">
+                                 <label for="w-option">اولي</label>
+    
+                                 <div class="col-sm-3 col-xs-3 check"></div>
+                                 
+                                </li>
+                             
+   
+                         </ul>
+
+                           <ul class="prettyradio" >
+                                 <li>
+                                 <input type="radio" id="b-option" name="selector3">
+                                 
+                                 <label for="b-option">ثانوي</label>
+    
+                                 <div class="col-sm-3 col-xs-3 check"></div>
+                                 
+                                </li>
+                             
+   
+                         </ul>
+                          </div>
+                     </div>
+                          <label  class="col-sm-3 col-xs-3 control-label bluetext">نوع الحساب<sup>*</sup></label>
+
+
+                    
+                   </div>
+                   
+                   
+                    <div class="form-group">
+                       <div style="width: 75%" class="col-sm-8 col-xs-8" >
+                           
+                           <div style="    text-align: center;border: solid 1px #ccc;    direction: rtl;" class="radio-btn">
+
+                         <input type="file" id="professionPracticing" name="professionPracticing" required="" accept="image/*">
+                         <p>صورة الترخيص يجب ان تكون -png-jpg </p>
+                          </div>
+                     </div>
+                          <label  class="col-sm-3 col-xs-3 control-label bluetext">ترخيص ممارسة المهنة<sup>*</sup></label>
+
+
+                    
+                   </div>
+                   <div class="form-group">
+                   <div style="width: 75%" class="col-sm-8 col-xs-8" class="form-group">
+                  <input class="form-control" data-val="true" data-val-length="Password length should be at least 6 characters" data-val-length-max="50" data-val-length-min="6" data-val-required="Password is required" id="Password" name="Password" type="Password" value="">
+                     </div>
+                   <label style="float: right"  class="col-sm-3 col-xs-3 control-label bluetext">كلمة السر<sup>*</sup></label>
+
+
+                    
+                   </div>
+                   <div class="form-group">
+                   <div style="width: 75%" class="col-sm-8 col-xs-8" class="form-group">
+                  <input class="form-control" data-val="true" data-val-length="Password length should be at least 6 characters" data-val-length-max="50" data-val-length-min="6" data-val-required="Password is required" id="Password" name="Password" type="Password" value="">
+                     </div>
+                   <label style="float: right"  class="col-sm-3 col-xs-3 control-label bluetext">تاكيد كلمة السر<sup>*</sup></label>
+
+
+                    
+                   </div>
+                   
+                   <div style=' text-align: center;'>
+                       <span>
+        عن طريق الاشتراك فإنك توافق على
+                
+                 </span>
+                <a style="    text-decoration: underline;font-size: large" id="doctorsOnlyLink" class="bluetext" href="#"> شروط الاستخدام</a>
+                      
+                  
+
+                   </div>
+                   <div style="text-align: center;    margin: 20px;">  <button type="button" class="btn btn-danger">Sign Up</button>
+                   </div>
+                 
+                  </form>
+           </div>
+      
+               
+               
+      
+        
+           
+            </div>
+            
+       
+      
+        
+        </div>
+            
+        </div>
+        
+        <!--end container-->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <script src='js/jquery-1.12.4.min.js'></script>
+        <script src="js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    </body>
+</html>
+
+
+
+
+   <div class="form-group">
+                       <div style="width: 75%" class="col-sm-8 col-xs-8" >
+                           
+                           <div style="    text-align: center;border: solid 1px #ccc;" class="col-sm-12 col-xs-12 radio-btn">
+
+                       
+
+                           <ul class="prettyradio" >
+                                 <li>
+                                 <input type="radio" id="f-option" name="selector">
+                                 <label for="f-option">منزل</label>
+    
+                                 <div class="col-sm-3 col-xs-3 check" style="padding-right: 10px;padding-left: 10px;"></div>
+                                 
+                                </li>
+                             
+   
+                         </ul>
+
+                    
+                          </div>
+                     </div>
+                          <label  class="col-sm-3 col-xs-3 control-label bluetext">نوع  الحجز<sup>*</sup></label>
+
+
+                    
+                   </div>

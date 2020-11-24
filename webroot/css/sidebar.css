@@ -1,0 +1,110 @@
+.sidebar-submenu-0,.sidebar-submenu-1,.sidebar-submenu-2,.sidebar-submenu-3,.sidebar-submenu-4,.sidebar-submenu-5,.sidebar-submenu-6   {
+    display : none;
+}
+.sideMenu nav ul {
+    margin-top : 0 !important;
+}
+.sideMenu nav ul li a, .sideMenu nav ul li i {
+
+    padding: 5px 10px;
+
+}
+.sideMenu .user-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.header-clicked {
+
+    margin-right: -22px !important;
+    width: 92% !important;
+
+}
+.header {
+
+    background: #dd6161;
+    box-shadow: 1px 1px 10px #ddd;
+    margin-right: -15px;
+    padding: 10px;
+    position: fixed;
+    /*width: 83%;*/
+    z-index: 999;
+    position: relative;
+    width: 100%;
+
+}
+
+@media only screen and (max-width:768px){
+    .side-Menu nav ul li {
+        /*text-align: center;*/
+    }
+    .side-Menu nav ul li a, .side-Menu nav ul li i {
+        /*padding: 5px 5px;*/
+    }
+    .side-Menu .user-image {
+
+        width: 30px;
+        height: 30px;
+
+
+    }
+  .side-Menu  span {
+        /*display: none;*/
+    }
+    .side-Menu nav ul li a{
+        /*padding:0*/
+    }
+    .side-Menu .user-name p {
+        font-size: 3vw;
+    }
+}
+.over-lay{
+    display: none;
+    position: absolute;
+    background: #e4d9d966;
+    z-index: 99999999;
+    width: 50%;
+    height: 100%;
+    right: 0;
+}
+
+@media only screen and (max-width:825px){
+
+/*    .side-Menu nav ul li {
+        padding : 0;}*/
+    .side-Menu{
+        display: none;
+        top :0 ;
+        bottom:0 ;
+        left :0;
+        right :0;
+        z-index: 999999999999;
+        position: fixed;
+        width: 50%;
+    }
+    .side-Menu nav ul li span {
+        font-size: 2.5vw;
+    }
+    .over-lay{
+        /*position: fixed ;*/
+        /*width :*/ 
+    }
+}
+@media only screen and (max-width:944px){
+    .fa.fa-caret-down {
+        display: none;
+    }
+    .side-Menu .user-name p {
+        font-size: 2vw;
+    }
+}
+@media only screen and (max-width: 375px){
+.side-Menu nav ul li span {
+    font-size: 3.5vw !important;
+    
+}
+.side-Menu{
+    overflow-y: scroll;
+}
+}

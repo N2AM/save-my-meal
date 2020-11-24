@@ -1,0 +1,22 @@
+.header {
+        /*margin: 0 10px;*/
+}
+.side-Menu nav ul li a, .side-Menu nav ul li i {
+    margin-left: 0 !important;
+}
+
+@media only screen and (max-width : 768px){
+    li span {
+        display : none;
+    }
+}
+.header .dropdown-menu {
+    left: -120px;
+    right: 0px !important;
+}
+.dropdown-menu.show li{
+    padding: 0 10px;
+}
+.side-Menu nav ul li a:hover{
+    color : #dd6161;
+}

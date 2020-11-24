@@ -1,0 +1,615 @@
+@media (max-width: 360px) {
+    #signUpDiv {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .ProductLines .prettyradio label {
+        max-width: 192px;
+    }
+}
+
+@media (min-width: 321px) {
+    #signUpDiv {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+
+#Search img {
+    max-height: 150px;
+    max-width: 150px;
+    min-height: 150px;
+    min-width: 150px;
+}
+
+/*.profile .docInfo .profileImg img {
+    max-height: 195px;
+    max-width: 195px;
+    min-height: 195px;
+    min-width: 195px;   
+}*/
+
+#booking .docInfo img {
+    max-height: 150px;
+    max-width: 150px;
+    min-height: 150px;
+    min-width: 150px;
+}
+
+.custom-validation {
+    border-color: #c71b2c;
+}
+
+.input-validation-error {
+    border-color: #c71b2c;
+}
+
+#homeDoctors .animated span {
+    padding: 5px;
+}
+
+.BookAppointment .embed-responsive.embed-responsive-16by9 {
+    height: 160px;
+    padding-bottom: 0;
+}
+
+.BookAppointment .docInfo .docInfo-body {
+    min-height: 0;
+    height: 160px;
+}
+
+.BookAppointment img {
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.BookAppointment header {
+    margin-bottom: 0;
+}
+
+.profile #map-canvas {
+    height: 200px;
+    text-align: center;
+    border: 1px solid rgb(179, 179, 179);
+}
+
+.intendent-text {
+    padding-left: 20px;
+    text-indent: -20px;
+    padding-right: 20px;
+}
+
+footer {
+    margin-bottom: -30px;
+}
+
+.grey {
+    color: #808184;
+}
+
+.area-icon {
+    margin-left: -3px;
+    margin-right: -3px;
+}
+
+#Search .media > .pull-left {
+    margin-right: 20px;
+}
+
+.rating-disabled {
+    cursor: default;
+}
+
+#contact ul {
+    margin-right: -20px;
+}
+
+#services h3 {
+    font: 400 2em "Economica",sans-serif;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.profile h3 {
+    font-size: 14px;
+}
+
+.SignIn h1 {
+    color: #c71b2c;
+    font-family: "Economica",sans-serif;
+    font-size: 1.5em;
+}
+
+.SignUp h1 {
+    color: #c71b2c;
+    font-family: "Economica",sans-serif;
+    font-size: 1.5em;
+}
+
+.SignIn h3 {
+    color: #c71b2c;
+    font-family: "Economica",sans-serif;
+    font-size: 1.5em;
+}
+
+.readmore-link {
+    padding-top: 8px;
+}
+
+.prevWeek:hover {
+    color: #fcad26;
+}
+
+.nextWeek:hover {
+    color: #fcad26;
+}
+
+.morning {
+}
+
+    .morning .Available:hover {
+        border: 1px solid #BC1616;
+        border-radius: 4px;
+    }
+
+.noon {
+}
+
+    .noon .Available:hover {
+        border: 1px solid #BC1616;
+        border-radius: 4px;
+    }
+
+.evening {
+}
+
+    .evening .Available:hover {
+        border: 1px solid #BC1616;
+        border-radius: 4px;
+    }
+
+.Col.Busy {
+    color: #f4e0c7;
+    padding: 2px;
+}
+
+.Col.Available {
+    background-color: #c9e7f3;
+    padding: 2px;
+}
+
+.Col.Vacation {
+    background-color: #9289ba;
+    padding: 2px;
+}
+
+.Col.Blocked {
+    background-color: #d5e09e;
+    padding: 2px;
+}
+
+.LanguageFontFamily {
+    font-family: 'Open Sans',sans-serif !important;
+}
+
+.FontSize25 {
+    font-size: 25px !important;
+}
+
+.FontSize20 {
+    font-size: 20px !important;
+}
+
+.field-validation-error {
+    color: #c71b2c;
+}
+
+.search-by-doctor {
+    font-size: 1.5em;
+    cursor: pointer !important;
+}
+
+    .search-by-doctor:hover {
+        color: white !important;
+    }
+
+.home .icon-search:before {
+    padding-top: 2px;
+}
+
+.home header .row:first-child {
+    margin-bottom: 0;
+}
+
+.home header {
+    padding: 0;
+}
+
+#services .margin-top {
+    margin-top: 40px;
+}
+
+#LayoutHeader .col-md-3 {
+    width: 20%;
+}
+
+#LayoutHeader .headerNav > * {
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+header {
+    /*border-bottom: 1px solid #c71b2c;*/
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.empty-message-border {
+    border: 1px solid gainsboro;
+    padding: 20px;
+    border-radius: 4px;
+    float: left;
+    color: rgb(193, 193, 193);
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 18px;
+}
+
+#Search #resultsPanel .docResult .appointment .Col {
+    width: 105px;
+}
+
+#booking .btn-2egr {
+    color: grey !important;
+}
+
+.arabic-font-family {
+    font-family: 'Droid Arabic Kufi' !important;
+}
+
+.form-outer .form-control {
+    /*width: 302px !important;*/
+    /*-webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;*/
+}
+
+.form-outer {
+    margin-top: 30px;
+    border: 1px #ccc solid;
+    /*-webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;*/
+    /*background-color: rgb(245, 245, 245);*/
+}
+
+#mhead {
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    font-family: georgia;
+}
+
+#icons {
+    background: #fff;
+    margin: 0;
+    min-height: 100px;
+    padding: 28px;
+    padding-right: 27px;
+    padding-top: 18px;
+    text-align: left;
+    white-space: normal;
+    width: 260px;
+}
+
+    #icons li {
+        margin: 0;
+        padding: 0;
+        border: 1px solid #fff;
+        border-radius: 2px;
+        display: inline-block;
+        vertical-align: top;
+        height: 98px;
+        width: 98px;
+    }
+
+        #icons li a {
+            color: #404040;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 13px;
+            margin: 8px 2px;
+            text-align: center;
+            outline: none;
+        }
+
+        #icons li:hover {
+            border: 1px solid #ccc;
+            -webkit-border-radius: 2px;
+            -mox-border-radius: 2px;
+            border-radius: 2px;
+        }
+
+/*#menu_hdr{ 
+    cursor:pointer;
+    width: 40px
+}*/
+
+#gridbox {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-color: rgba(0,0,0,.2);
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 2px 10px rgba(0,0,0,.2);
+    display: none;
+    outline: none;
+    overflow: hidden;
+    position: absolute;
+    right: 14px;
+    top: 44.4px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-user-select: text;
+    z-index: 2000;
+    width: 260px;
+    max-height: 135px;
+    height: 370px;
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+    display: none;
+    border-color: transparent;
+    border-bottom-color: #fff;
+    border-style: dashed dashed solid;
+    border-width: 0 8.5px 8.5px;
+    position: absolute;
+    z-index: 2;
+    bottom: -15px;
+}
+
+#icons img {
+    display: inline-block;
+    vertical-align: top;
+    height: 50px;
+    width: 50px;
+}
+
+.icon_desc {
+    display: block;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 84px;
+    /*text-overflow: ellipsis;*/
+}
+
+.verf_menu {
+    width: 100% !important;
+    height: 60px !important;
+    padding-top: 7px !important;
+}
+
+.key-icon {
+    display: inline-block !important;
+    vertical-align: top !important;
+    height: 55px !important;
+    width: 55px !important;
+    margin-top: -15px !important;
+    margin-left: 10px !important;
+    padding: 6px;
+}
+
+.verf-li {
+    border-bottom: 1px solid gray !important;
+    width: 100% !important;
+    height: 70px !important;
+    font-size: 16px !important;
+    margin-bottom: 10px !important;
+}
+
+    .verf-li li a {
+        color: #404040;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 13px;
+        margin: 8px 2px;
+        text-align: center;
+        outline: none;
+        width: auto !important;
+        height: auto !important;
+    }
+
+footer .menu li a:hover {
+    color: #0070cd !important;
+}
+
+.select2-drop-active {
+    border: 1px solid #c71b2c;
+}
+
+.select2-drop.select2-drop-above.select2-drop-active {
+    border-top: 1px solid #c71b2c;
+    /*#5897fb;*/
+}
+
+.select2-container-active .select2-choice,
+.select2-container-active .select2-choices {
+    border: 1px solid #c71b2c;
+    /*#5897fb;*/
+}
+
+.select2-dropdown-open.select2-drop-above .select2-choice,
+.select2-dropdown-open.select2-drop-above .select2-choices {
+    border: 1px solid #c71b2c;
+    color: #0070cd !important;
+    /*#5897fb;*/
+}
+
+.select2-results .select2-highlighted {
+    background: #c71b2c;
+    /*#3875d7;*/
+    color: #fff !important;
+}
+
+.select2-container-multi.select2-container-active .select2-choices {
+    border: 1px solid #c71b2c;
+    color: #fff !important;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.historyDate {
+    color: rgb(48, 57, 66);
+}
+
+.historyTime {
+    width: 70px;
+    font-size: 12px;
+}
+
+.historyImg {
+    width: 18px;
+    height: 18px;
+}
+
+#historyContent {
+    padding-left: 0;
+}
+
+.historyContentLabel {
+    font-weight: normal;
+    color: #2d2d2d;
+    font-size: 13px;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+#historyField {
+    /*font-style: italic;*/
+    font-weight: bold;
+}
+
+.row-centered {
+    text-align: center;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    text-align: left;
+    margin-right: -4px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: -10px;
+}
+
+#doctorsOnlySection {
+    font-size: 24px;
+}
+
+#doctorsOnlyLink {
+    text-decoration: underline !important;
+}
+
+#hostedpageTitle {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.disable-selection {
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.margin-top-1em {
+    margin-top: 1em;
+}
+
+.form-ctr {
+    margin-top: 20px !important;
+}
+
+#confirm-chb-ctr {
+    margin: 0;   
+}
+
+.main-label {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    margin-left: 5px;
+}
+
+.confirm-item-row {
+    padding-top: 0.7em;
+    padding-bottom: 0.2em;
+    border-bottom: 1px solid #ccc;
+}
+
+.confirm-item-row:last-child {
+    border-bottom: 0;
+    padding-bottom: 1em;
+}
+
+/*#confirm-page .btn-2erd {
+    padding: 6px 40px 6px 35px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+}*/
+
+.item-desc-img {
+    font-size: 11px;
+    color: #808184;
+    vertical-align: -3px;
+}
+
+.float-right {
+    float: right;
+}
+
+#confirmationsavebtn {
+    background-color: #ccc;
+    float: right;
+}
+
+#paymentmethodsgroup {
+    margin-top: 4px;
+}
+
+.margin-top-15 {
+    margin-top: 15px;
+}
+
+.btn-red {
+    background-color: #EB1C23;
+    color: #fff;
+}
+
+.btn-red:hover{
+    color: #fff;
+}
+
+.btn-red:focus{
+    color: #fff;
+}
